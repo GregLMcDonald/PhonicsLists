@@ -45,7 +45,7 @@ while( <> ){
 	print "$result\n";
 
 
-	open( MYFILE, ">>datamuse_results.txt");
+	open( MYFILE, ">>datamuse_results_LEVEL_1.txt");
 	print MYFILE "$result\n";
 	close( MYFILE );
 
