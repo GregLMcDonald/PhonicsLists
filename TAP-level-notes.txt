@@ -1,3 +1,6 @@
+Y as is DRY and CRY?
+-- avoiding CRY at level 2 but DRY is OK?
+
 LEVEL 4
 
 ING? As in "FINGER" (no ng-coalescence?) rather than SING

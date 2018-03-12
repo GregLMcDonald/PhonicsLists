@@ -5,6 +5,8 @@ use warnings;
 use 5.010;
 
 use Getopt::Long;
+use Data::Dumper;
+$Data::Dumper::Indent   = 1;
 #use feature 'switch';
 #use experimental;
 
@@ -41,6 +43,7 @@ my $pronouncingDico;
 
 
 my @gpcTables;
+my @pgcTables;
 
 #Level 1
 push @gpcTables, {
@@ -76,7 +79,7 @@ push @gpcTables, {
 	'SS' => 'S',
 	'T' => 'T',
 	'TT' => 'T',
-	'U' => 'AH1',
+	'U' => ['AH1', 'AH2'],
 	'V' => 'V',
 	'VV' => 'V',
 	'W' => 'W',
@@ -152,8 +155,8 @@ push @gpcTables, {
 	'ALL' => 'AO1 L',
 	'ULL' => 'UH1 L', #must add to level 4 on website  ADD?
 	'OLL' => 'OW1 L', #must add to level 4 on website  ADD?
-	'ING' => 'IH1 NG G',
-	'ER' => [ 'ER1', 'ER0' ],
+	'ING' => 'IH1 NG G', #FINGER
+	'ER' => [ 'ER1', 'ER0' ],  # all R-controlled vowels?  ADD?
 	'ERR' => [ 'ER1', 'ER0' ],
 	'AR' => 'AA1 R',
 	'ARR' => 'AA1 R',
@@ -165,14 +168,13 @@ push @gpcTables, {
 	'URR' => 'ER1',
 	'WAR' => 'W AO1 R',
 	'WOR' => 'W ER1',
-	'WA' => 'W AA1',
+	'WA' => ['W AA1', 'W AO1'],
 	
 	};
 
 #Level 5
 push @gpcTables, {
-	'E' => 'IY1', # BE (open syllables)   ADD?
-	'O' => 'OW1', # SO (open syllable)    ADD?
+	
 	'EE' => 'IY1',   # SEEN
 	'EA' => ['IY1', 'IH1'], # ?; NEAR
 	'EY' => 'IY1',
@@ -202,7 +204,8 @@ push @gpcTables, {
 	'LE' => 'AH0 L',
 	'A' => 'EY1', #TABLE  ADD? --- open syllable
 	'I' => 'AY1', #TINY  ADD?  --- open syllable
-	'E' => [ 'IY0', 'IY1' ], # CREATE, DESIGN   ADD? ---- open syllable
+	'E' => [ 'IY0', 'IY1' ], # CREATE, DETAIL, BE  ADD? ---- open syllable
+	'O' => 'OW1', # SO (open syllable)    ADD?
 	};
 
 #Level 7
@@ -212,7 +215,7 @@ push @gpcTables, {
 	'ACE' => 'EY1 S',
 	'ICE' => 'AY1 S',
 	'UCE' => 'UW1 S',
-	'G' => 'JH',
+	'G' => 'JH', # RAGE
 	'AGE' => 'EY1 JH',
 	'UGE' => 'Y UW1 JH',
 	'IGE' => 'AY1 JH',
@@ -261,7 +264,6 @@ push @gpcTables, {
 	'CH' => 'K', # SCHOOL, CHASM, CHRISTMAS
 	'SM' => 'Z AH0 M',
 	'E' => 'IH0', # DESIGN ---- open syllable
-	'A' => 'AO1', # WATER
 	'SC' => 'S', #SCENE
 	'OUR' => 'AW1 ER0', #OUR, SOUR
 	'OOR' => 'AO1 R', #FLOOR, DOOR
@@ -341,395 +343,229 @@ my %levelByWordTemplate = (
 
 
 
+sub buildPGC {
+
+	my $startIndex = 0;
+	my $endIndex = 9;
+
+	for (my $i = $startIndex; $i <= $endIndex; $i++) {
+
+		my %pgc;
+
+		my %gpcTable = %{ $gpcTables[ $i ] };
+
+		keys %gpcTable; # reset the internal iterator so a prior each() doesn't affect the loop
+
+		#Loop over all graphemes to create empty array in PGC hash table for each phoneme
+		while( my($grapheme, $phonemes) = each %gpcTable) {
+
+			if (ref( $phonemes ) eq 'ARRAY'){
+
+				for my $phoneme ( @$phonemes ){
+					
+					$pgc{ $phoneme } = [];
+					
+				}
+
+			} else {
+
+				$pgc{ $phonemes } = [];
+				
+			}
+		}
+
+		#Loop over all graphemes again to add grapheme to grapheme set for all the phonemes to
+		#which it corresponds
+		while( my($grapheme, $phonemes) = each %gpcTable) {
+
+			if (ref( $phonemes ) eq 'ARRAY'){
+
+				for my $phoneme ( @$phonemes ){
+					
+					push $pgc{ $phoneme }, $grapheme;
+					
+				}
+
+			} else {
+
+				push $pgc{ $phonemes }, $grapheme;
+				
+			}
+
+
+		}
+
+		# print Dumper \%pgc;
+
+
+		# while( my($p, $gSet) = each %pgc) {
+
+		# 	my $gString = join ",", @$gSet;
+		# 	print("$p:    $gString\n");
+
+
+		# }
+
+		 push @pgcTables, { %pgc };
+
+		# print Dumper \@pgcTables;
+
+		# print( ref $pgcTables[ 0 ] . "\n");
+
+
+	}
+
+
+
+}
+buildPGC();
+
 while( <> ) {
-
-	# while( 0 ) {
-
-	# Using <> means the file specified on the command line line-by-line or STDIN line-by-line or wait for user input
-
 
 	$_ =~ s/\n//; #strips the newline off the line
 
-	my $upper = uc $_; #converts to upper case, this is the TARGET WORD
+	if ( $_ =~ /\@\@\@\@(.*)/ ){
+		print("$1\n");
+		next;
+	}
 
-	my ($pronunciation)= $pronouncingDico =~ /^($upper\ +[\ \w]*$)/mg;  #looks up word in pronouncing dictionary
+	my $targetWord = uc $_; #converts to upper case, this is the TARGET WORD
 
-	my @pieces;
+	my ($pronunciation)= $pronouncingDico =~ /^($targetWord\ +[\ \w]*$)/mg;  #looks up word in pronouncing dictionary
 
 	if ($pronunciation){
 
 		#In the CMU pronunciation dictionary, entries are formatted as word followed by a list of phonemes: WORD AA AA AA AA...
-
+		my @pieces;
 		@pieces = split /\ /, $pronunciation;
 
 		shift @pieces; #remove element from beginning, which is the target word (already have it in $upper)
 		shift @pieces; #remove spacer between target word and pronunciation
 
-		$pronunciation = join " " , @pieces; #reconnects the pieces of pronunciation
-		my $partialPronunciation = '';
-		my $candidateFragment = '';
-		my $wordFragment = '';
-		my $candidateFradLegnth = 0;
-		my $candidateLevel = 0;
-		my $highestLevelUsed = 1;
+		my $s = join " " , @pieces;
+		my $nPieces = scalar @pieces;
 
+		#Now we have:
+		#  1) the $targetWord 
+		#  2) the $pronunciation of that word in standard American English from the CMU pronunciation dictionary
+		#  3) @pieces, an array containing the individual phoneme codes from the pronunciation
 
-		#Check the table of special words first
-		my $lookupSpecials = 1;
-		my $specialFound = 0;
-		my @matches = lookupGPC( $upper, $lookupSpecials );
-		if ( @matches ){
-			my $res = $matches[ 0 ];
-		 	$partialPronunciation = $res->[0];
-		 	$highestLevelUsed = 10;
-		 	$specialFound = 1;
+		my $level = lookupSpelling( '', $targetWord, @pieces );
 
-		 	if ($verbose){
-		 		print(" ++++ $upper is special: $partialPronunciation\n");
-		 	}
-		}
-
-
-
-
-
-		my @targetLetters = split //, $upper; #splits the target word into an array of letters
-		my $i = 0;
-		my $doNotLookupSpecial = 0;
-		while ( $specialFound == 0 and $i <= $#targetLetters ){# $#ARRAYNAME gives index of last element of array
-
-			my $matchFound = 0;
-
-			$candidateFragment = '';
-			$candidateLevel = 0;
-
-
-			#check for FOUR letter matches starting here (eg W + OULD )
-			if ( $i + 3 <= $#targetLetters ){
-
-				my $s = $targetLetters[$i] . $targetLetters[ $i + 1 ] . $targetLetters[ $i + 2] . $targetLetters[ $i + 3];
-				
-				if ($verbose){
-					print( "4  $s\n");
-				}
-
-				my @matches = lookupGPC( $s, $doNotLookupSpecial );
-				if ( @matches ){
-
-					my $matchFoundAtThisFragLength = 0;
-
-					for my $j ( 0 .. $#matches ) {
-	
-
-						if (not $matchFoundAtThisFragLength ) {
-
-							my $res = $matches[ $j ];
-		 					my $pronunciationFrag = $res->[0];
-		 					my $level = $res->[1];
-		 					if ($verbose){
-		 							print("   $pronunciationFrag ($level)\n");
-		 						}
-
-
-		 					my $testPronunciation = $partialPronunciation . $pronunciationFrag;
-
-
-		 					if ( ($pronunciation =~ /\A$testPronunciation\ /) or ($pronunciation eq $testPronunciation) ){
-
-		 						# if ($pronunciation eq $testPronunciation) {
-		 						# 	$partialPronunciation = $testPronunciation;
-		 						# } else {
-		 						# 	$partialPronunciation = $testPronunciation . ' ';
-		 						# }
-
-		 						# if ($verbose){
-		 						# 	print("$partialPronunciation\n");
-		 						# }
-
-		 						# $matchFound = 1;
-		 						# $i = $i + 4;
-		 						# if ($level > $highestLevelUsed){
-		 						# 	$highestLevelUsed = $level;
-		 						#}
-
-
-		 						$candidateFragment = $pronunciationFrag;
-		 						$candidateLevel = $level;
-		 						$wordFragment = $s;
-		 						$matchFoundAtThisFragLength = 1;
-
-
-		 					}
-
-						}
-
-
-					} 
-
-				}
-			}
-
-
-			#check for THREE letter matches starting here
-			if ( $i + 2 <= $#targetLetters ){
-
-				my $s = $targetLetters[$i] . $targetLetters[ $i + 1 ] . $targetLetters[ $i + 2];
-				
-				if ($verbose){
-					print( "3  $s\n");
-				}
-
-				my @matches = lookupGPC( $s, $doNotLookupSpecial  );
-				if ( @matches ){
-
-					my $matchFoundAtThisFragLength = 0;
-
-					for my $j ( 0 .. $#matches ) {
-	
-
-						if (not $matchFoundAtThisFragLength) {
-
-							my $res = $matches[ $j ];
-							my $level = $res->[1];
-		 					my $pronunciationFrag = $res->[0];
-		 					if ($verbose){
-		 							print("   $pronunciationFrag  ($level)\n");
-		 						}
-		 					
-
-		 					my $testPronunciation = $partialPronunciation . $pronunciationFrag;
-
-
-		 					if ( ($pronunciation =~ /\A$testPronunciation\ /) or ($pronunciation eq $testPronunciation) ){
-
-		 						# if ($pronunciation eq $testPronunciation) {
-		 						# 	$partialPronunciation = $testPronunciation;
-		 						# } else {
-		 						# 	$partialPronunciation = $testPronunciation . ' ';
-		 						# }
-
-		 						# if ($verbose){
-		 						# 	print("$partialPronunciation\n");
-		 						# }
-
-		 						# $matchFound = 1;
-		 						# $i = $i + 3;
-		 						# if ($level > $highestLevelUsed){
-		 						# 	$highestLevelUsed = $level;
-		 						# }
-
-		 						$candidateFragment = $pronunciationFrag;
-		 						$candidateLevel = $level;
-		 						$wordFragment = $s;
-		 						$matchFoundAtThisFragLength = 1;
-
-
-		 					}
-
-						}
-
-
-					} 
-
-				}
-			}
-
-			#check for TWO letter matches starting here
-			if ( $matchFound == 0  and $i + 1 <= $#targetLetters ){
-
-				my $s = $targetLetters[$i] . $targetLetters[ $i + 1 ];
-
-				if ($verbose){
-					print( "2  $s\n");
-				}
-
-				my @matches = lookupGPC( $s, $doNotLookupSpecial  );
-				if ( @matches ){
-
-					my $matchFoundAtThisFragLength = 0;
-
-					for my $j ( 0 .. $#matches ) {
-	
-
-						if ( not $matchFoundAtThisFragLength) {
-
-							my $res = $matches[ $j ];
-		 					my $pronunciationFrag = $res->[0];
-		 					my $level = $res->[1];
-		 					if ($verbose){
-		 							print("   $pronunciationFrag ($level)\n");
-		 						}
-		 					
-		 					
-
-		 					my $testPronunciation = $partialPronunciation . $pronunciationFrag;
-		 					if ( ($pronunciation =~ /\A$testPronunciation\ /) or ($pronunciation eq $testPronunciation) ){
-
-		 					# 	if ($pronunciation eq $testPronunciation) {
-		 					# 		$partialPronunciation = $testPronunciation;
-		 					# 	} else {
-		 					# 		$partialPronunciation = $testPronunciation . ' ';
-		 					# 	}
-
-								# if ($verbose){
-		 					# 		print("$partialPronunciation\n");
-		 					# 	}
-
-
-		 					# 	$matchFound = 1;
-		 					# 	$i = $i + 2;
-		 					# 	if ($level > $highestLevelUsed){
-		 					# 		$highestLevelUsed = $level;
-		 					# 	}
-
-		 						$candidateFragment = $pronunciationFrag;
-		 						$wordFragment = $s;
-		 						$candidateLevel = $level;
-		 						$matchFoundAtThisFragLength = 1;
-
-
-		 					}
-
-						}
-
-
-					} 
-
-				}
-			}
-
-			#check for match on current letter
-			if ( $matchFound == 0 	){
-
-				my $s = $targetLetters[$i];
-
-				if ($verbose){
-					print( "1  $s\n");
-				}
-
-				my @matches = lookupGPC( $s, $doNotLookupSpecial  );
-				if ( @matches ){
-
-					my $matchFoundAtThisFragLength = 0;
-
-					for my $j ( 0 .. $#matches ) {
-	
-
-						if (not $matchFoundAtThisFragLength) {
-
-							my $res = $matches[ $j ];
-		 					my $pronunciationFrag = $res->[0];
-		 					my $level = $res->[1];
-		 					if ($verbose){
-		 							print("   $pronunciationFrag ($level)\n");
-		 						}
-		 					
-		 					
-
-		 					my $testPronunciation = $partialPronunciation . $pronunciationFrag;
-		 					if ( ($pronunciation =~ /\A$testPronunciation\ /) or ($pronunciation eq $testPronunciation) ){
-
-		 						# if ($pronunciation eq $testPronunciation) {
-		 						# 	$partialPronunciation = $testPronunciation;
-		 						# } else {
-		 						# 	$partialPronunciation = $testPronunciation . ' ';
-		 						# }
-
-
-		 						# if ($verbose){
-		 						# 	print("$partialPronunciation\n");
-		 						# }
-
-		 						# $matchFound = 1;
-		 						# $i = $i + 1;
-		 						# if ($level > $highestLevelUsed){
-		 						# 	$highestLevelUsed = $level;
-		 						# }
-
-		 						$candidateFragment = $pronunciationFrag;
-		 						$wordFragment = $s;
-		 						$candidateLevel = $level;
-		 						$matchFoundAtThisFragLength = 1;
-
-		 					}
-
-						}
-
-
-					} 
-
-				}
-			}
-
-			if ($candidateFragment){
-
-				my $testPronunciation = $partialPronunciation . $candidateFragment;
-
-
-				if ($pronunciation eq $testPronunciation) {
-		 			$partialPronunciation = $testPronunciation;
-		 		} else {
-		 			$partialPronunciation = $testPronunciation . ' ';
-		 		 }
-
-				if ($verbose){
-		 			print("$partialPronunciation\n");
-		 		}
-
-		 		$i = $i + length( $wordFragment );
-				if ($candidateLevel > $highestLevelUsed){
-		 			$highestLevelUsed = $candidateLevel;
-		 		}
-
-				$matchFound = 1;
-
-			}
-
-
-			if ( not $matchFound ){
-
-				# end the search
-
-				$partialPronunciation = '';
-				$i = $#targetLetters + 1;
-			}
-
-		}
-
-		if ($partialPronunciation){
-			#print( "$upper    $pronunciation     $partialPronunciation  $highestLevelUsed\n");
-			my $levelLabel = $highestLevelUsed;
-
-			# for( $highestLevelUsed ){
-
-			# 	when ( 10 ) { $levelLabel = 'SPECIAL' }
-			# 	when ( 9 )  { $levelLabel = 'MORPH' }
-			# 	when ( 8 ) { $levelLabel = 'COSMIC???' }
-			# 	default { $levelLabel = $highestLevelUsed }
-			# }
-			if ( $highestLevelUsed == 10 ){
-				$levelLabel = 'SPECIAL';
-			}
-			if ( $highestLevelUsed == 9 ){
-				$levelLabel = 'COSMIC???';
-			}
-			if ( $highestLevelUsed == 8 ){
-				$levelLabel = 'MORPH';
-			}
-
-
-
-			print( "$upper   #$levelLabel\n");
+		if ( $level > 0 ){
+			print("$targetWord,$level\n");
 		} else {
-			print( "---------------------------  $upper   $pronunciation\n");
+			print("------------- $targetWord,  $pronunciation\n");
 		}
-		#print( "$upper   $highestLevelUsed\n");
-	} else {
-		print( "///////////////////////////  pronunciation of $upper not found\n");
+
+
+
+	}
+}
+
+
+sub lookupSpelling {
+
+	my $debug = 0;
+
+	my ( $partialSpelling, $targetWord, @pieces ) = @_;   #  LEARNING PERL all the args to the subroutine are in internal var @_ and each sub has its own
+
+	my $result = -1 ; # if -1, then no spellings found, otherwise is the highest level from which spellings were used to build the $targetWord with this pronunciation
+
+	
+	my $MAX_NB_PHONEMES_PER_SPELLING = 4;
+	my $maxNbPhonemesToExamine = $MAX_NB_PHONEMES_PER_SPELLING;
+	
+	if ( scalar @pieces < $maxNbPhonemesToExamine ){  # LEARNING PERL an array in SCALAR context returns its number of elements
+		$maxNbPhonemesToExamine = scalar @pieces;
+	}
+
+	for ( my $nPhonemes = 1; $nPhonemes <= $maxNbPhonemesToExamine; $nPhonemes++ ){
+
+		my @piecesCopy = @pieces; # LEARNING PERL: in Perl, this copies the array (in other language it would be a pointer/reference)
+		my $phonemeSet = '';
+		for (my $i=1; $i <= $nPhonemes; $i++){
+
+			my $phoneme = shift @piecesCopy; # LEARNING PERL shift takes off first element and shortens remaining array by one; pop takes from the back
+			$phonemeSet = $phonemeSet . $phoneme;
+			if ($i < $nPhonemes){
+				$phonemeSet = $phonemeSet . ' ';
+			}
+		}
+
+		if ( $debug ) { print( "$phonemeSet\n"); }
+
+		# now $phonemeSet has the first $nPhonemes joined with spaces in between and
+		# @piecesCopy has the remaining phonemes
+
+		my $startIndex = 0;
+		my $endIndex = 8;
+		my $level;
+
+		for (my $pgcTableIndex = $startIndex; $pgcTableIndex <= $endIndex; $pgcTableIndex++){
+
+			$level = $pgcTableIndex + 1;
+			my %table = %{ $pgcTables[ $pgcTableIndex ] };
+
+			my $pgcCandidates = $table{ $phonemeSet };
+			if ( $pgcCandidates ) {
+
+				if ( $debug ) { print( ($pgcTableIndex + 1) . "       " . ( join " ",@$pgcCandidates ) . "\n"); }
+
+				for my $candidate ( @$pgcCandidates ){
+					if ( $debug ) { print("candidate  $candidate\n"); }
+
+
+					my $testSpelling = $partialSpelling . $candidate;
+
+					#if 
+					if ( $targetWord =~ /\A$testSpelling/ ){
+
+						if ( $debug ) { print("Test spelling OK: $testSpelling\n"); }
+
+						if ( ( $testSpelling eq $targetWord ) and ( scalar @piecesCopy == 0 ) ){
+
+							if ( $level > $result ){
+
+								$result = $level;
+								if ( $debug ) { print( "------ STOP CONDITIONS SATISFIED\n") }
+							}
+
+						} else {
+
+							my $sublevel = lookupSpelling( $testSpelling, $targetWord, @piecesCopy );
+							if ($sublevel > 0){
+
+								# a spelling was found
+								if ($sublevel > $level){
+
+									if ($sublevel > $result){
+										$result = $sublevel;
+									}
+
+								} else {
+
+
+									if ($level > $result){
+										$result = $level;
+									}
+
+								}
+
+							}
+
+						}
+					}
+				}
+			}
+		}
 	}
 
 
+
+	return $result;
 }
+
 
 
 # Takes a GRAPHEME as sole argument and returns PHONEME or ARRAY OR PHONEMES and LEVEL or nil and -1 if not found
