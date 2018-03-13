@@ -28,7 +28,7 @@ while( <> ){
 
 				} else {
 
-					print("|$token|\n");  
+					print("\@\@\@\@$token\n");  
 
 					$htmlOutput = $htmlOutput . $token;
 
@@ -98,7 +98,7 @@ while( <> ){
 
 				if ( $isWord ){
 
-					print("--------- $token\n");
+					print("$token\n");
 
 					$htmlOutput = $htmlOutput . '<span>' . $token . '</span>';
 
@@ -130,10 +130,10 @@ while( <> ){
 
 		if ($isWord){
 			$htmlOutput = $htmlOutput . '<span>' . $token . '</span>';
-			print("--------- $token\n");
+			print("$token\n");
 		} else {
 			$htmlOutput = $htmlOutput . $token ;
-			print("|$token|\n");
+			print("\@\@\@\@$token\n");
 		}
 	}
 

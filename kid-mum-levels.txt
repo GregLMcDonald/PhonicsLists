@@ -1,0 +1,1863 @@
+KID,1
+MUM,1
+CHAPTER,4
+KAT,1
+SAT,1
+WITH,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+HAND,1
+ON,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BUMP,1
+SHE,6
+FELT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BUB,1
+KICK,2
+.......... AND,SPECIAL
+TWIST,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+PRESS,1
+THIS,2
+BUB,1
+THAT,2
+IS,2
+KAT,1
+------------------------------ S,  EH1 S
+KID,1
+KAT,1
+------------------------------ S,  EH1 S
+BUB,1
+HER,4
+KID,1
+HER,4
+LITTLE,6
+MAN,1
+****************************** NOT IN DICTIONARY: OMG
+THICK,2
+SAD,1
+DROPS,1
+WENT,1
+DRIP,1
+DRIP,1
+DRIP,1
+IN,1
+.......... TO,SPECIAL
+KAT,1
+------------------------------ S,  EH1 S
+DRY,6
+HANDS,2
+LAST,1
+SPRING,2
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+JUST,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+KID,1
+IN,1
+CLASS,1
+SHE,6
+GOT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+IN,1
+****************************** NOT IN DICTIONARY: MATHS
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+****************************** NOT IN DICTIONARY: MATHS
+QUIZ,2
+IN,1
+CLASS,1
+IS,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+LONG,2
+JUMP,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+THIS,2
+THIS,2
+IS,2
+JUST,1
+MAD,1
+SAM,1
+.......... SAID,SPECIAL
+KAT,1
+.......... TO,SPECIAL
+NO,6
+.......... ONE,SPECIAL
+HE,6
+WILL,1
+BE,6
+SAM,1
+CHAPTER,4
+KAT,1
+HAD,1
+MET,1
+SAM,1
+------------------------------ S,  EH1 S
+DAD,1
+MICK,2
+AT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GIG,1
+IN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SPRING,2
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+RAP,1
+BAND,1
+.......... AND,SPECIAL
+HE,6
+SANG,2
+WELL,1
+MICK,2
+SANG,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SONGS,2
+.......... AND,SPECIAL
+HIS,2
+~~~~~~~~~~~~~~~~~ FOUR,CLARIFY  FOUR  F AO1 R
+PALS,2
+DID,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+RAP,1
+BITS,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+HOT,1
+------------------------------ JINX,  JH IH1 NG K S
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BEST,1
+BAND,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+NEXT,1
+BIG,1
+THING,2
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+HIT,1
+KAT,1
+WENT,1
+.......... TO,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+WITH,2
+SID,1
+.......... AND,SPECIAL
+JAN,1
+SID,1
+JAN,1
+.......... AND,SPECIAL
+KAT,1
+HAD,1
+MET,1
+IN,1
+CLASS,1
+LAST,1
+SPRING,2
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+****************************** NOT IN DICTIONARY: WHIZZ
+IN,1
+LIT,1
+CLASS,1
+.......... AND,SPECIAL
+JAN,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GET,1
+FIT,1
+CLASS,1
+FAN,1
+BUT,1
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+BEST,1
+AT,1
+****************************** NOT IN DICTIONARY: MATHS
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+.......... OF,SPECIAL
+THEM,2
+GOT,1
+ON,1
+SO,6
+WELL,1
+CLASS,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+FUN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+PALS,2
+SANG,2
+WELL,1
+TOO,6
+KAT,1
+SANG,2
+WITH,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SOFT,1
+LILT,1
+BUT,1
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+BEST,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SAD,1
+SONGS,2
+JAN,1
+SANG,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+BUT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+BEST,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+JAZZ,1
+STEPS,1
+SHE,6
+DID,1
+AS,2
+KAT,1
+.......... AND,SPECIAL
+SID,1
+SANG,2
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+FUN,1
+.......... TO,SPECIAL
+THINK,2
+THAT,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+.......... OF,SPECIAL
+THEM,2
+HAD,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BAND,1
+AS,2
+BEST,1
+PALS,2
+THAT,2
+SANG,2
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BAND,1
+KAT,1
+JAN,1
+.......... AND,SPECIAL
+SID,1
+WENT,1
+.......... TO,SPECIAL
+LOTS,1
+.......... OF,SPECIAL
+GIGS,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+.......... OF,SPECIAL
+THEM,2
+WENT,1
+.......... AND,SPECIAL
+HAD,1
+FUN,1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BLAST,1
+IN,1
+SPRING,2
+WHEN,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+RUN,1
+.......... OF,SPECIAL
+GIGS,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+HELD,1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+HELD,1
+ON,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GRASS,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+END,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+TRACK,2
+THAT,2
+LED,1
+.......... TO,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SHOPS,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+KIDS,2
+GOT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+CUT,1
+COST,1
+PASS,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+JAN,1
+------------------------------ S,  EH1 S
+DAD,1
+JAN,1
+------------------------------ S,  EH1 S
+DAD,1
+HAD,1
+PALS,2
+IN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CLUB,1
+THAT,2
+SET,1
+UP,1
+.......... AND,SPECIAL
+RAN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIGS,2
+CHAPTER,4
+MICK,2
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+HOT,1
+------------------------------ JINX,  JH IH1 NG K S
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+.......... AND,SPECIAL
+BLOND,1
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+FOND,1
+.......... OF,SPECIAL
+HIM,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+****************************** NOT IN DICTIONARY: ST
+SONG,2
+KIM,1
+SANG,2
+HIS,2
+SONGS,2
+BACK,2
+.......... TO,SPECIAL
+HIM,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BACK,2
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+MOSH,2
+PIT,1
+SID,1
+.......... SAID,SPECIAL
+.......... TO,SPECIAL
+STOP,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+KIDS,2
+NEXT,1
+.......... TO,SPECIAL
+THEM,2
+IN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BACK,2
+.......... SAID,SPECIAL
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+MAD,1
+SID,1
+.......... AND,SPECIAL
+JAN,1
+GOT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+SICK,2
+.......... OF,SPECIAL
+KAT,1
+------------------------------ S,  EH1 S
+YELLS,2
+BUT,1
+SHE,6
+DID,1
+NOT,1
+STOP,1
+SID,1
+.......... SAID,SPECIAL
+THAT,2
+KAT,1
+MUST,1
+STOP,1
+HE,6
+DID,1
+NOT,1
+THINK,2
+MUCH,2
+.......... OF,SPECIAL
+MICK,2
+IN,1
+FACT,1
+SID,1
+.......... AND,SPECIAL
+JAN,1
+WENT,1
+BACK,2
+.......... AND,SPECIAL
+LEFT,1
+KAT,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+MICK,2
+THEN,2
+SANG,2
+KAT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SONG,2
+MICK,2
+HAD,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BEST,1
+SONGS,2
+.......... AND,SPECIAL
+THIS,2
+SONG,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+KAT,1
+------------------------------ S,  EH1 S
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SONG,2
+WENT,1
+IN,1
+.......... TO,SPECIAL
+KAT,1
+.......... AND,SPECIAL
+SHE,6
+FELT,1
+SO,6
+GLAD,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+MOSH,2
+PIT,1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+AS,2
+IF,1
+IT,1
+.......... WERE,SPECIAL
+JUST,1
+KAT,1
+.......... AND,SPECIAL
+MICK,2
+.......... AND,SPECIAL
+THAT,2
+SONG,2
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+END,1
+KAT,1
+.......... AND,SPECIAL
+MICK,2
+HAD,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+KISS,1
+SEX,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+PLAN,1
+BUT,1
+KAT,1
+HAD,1
+HAD,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+DRINK,2
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+SHE,6
+DID,1
+NOT,1
+DRINK,2
+SO,6
+MUCH,2
+.......... AND,SPECIAL
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+STRONG,2
+DRINK,2
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+END,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+DRINK,2
+SHE,6
+FELT,1
+AT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+LOSS,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+WITH,2
+IT,1
+.......... AND,SPECIAL
+KAT,1
+DID,1
+NOT,1
+THINK,2
+SHE,6
+JUST,1
+HAD,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+KISS,1
+WITH,2
+MICK,2
+.......... AND,SPECIAL
+THEN,2
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+TOO,6
+MUCH,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+STRONG,2
+DRINK,2
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SONG,2
+HAD,1
+GOT,1
+KAT,1
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+MESS,1
+SID,1
+.......... AND,SPECIAL
+JAN,1
+FELT,1
+BAD,1
+ON,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+TRACK,2
+SO,6
+WENT,1
+BACK,2
+.......... TO,SPECIAL
+GET,1
+KAT,1
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+MESS,1
+MICK,2
+HAD,1
+LEFT,1
+KAT,1
+DRUNK,2
+IN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+TENT,1
+SID,1
+.......... AND,SPECIAL
+JAN,1
+GOT,1
+KAT,1
+UP,1
+SHE,6
+SAT,1
+.......... AND,SPECIAL
+SAT,1
+TILL,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SICK,2
+THUD,2
+IN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SKULL,1
+WENT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+THEN,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+PALS,2
+WENT,1
+BACK,2
+CHAPTER,4
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+LEFT,1
+AFTER,4
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+.......... AND,SPECIAL
+MICK,2
+LEFT,1
+KAT,1
+HE,6
+DID,1
+NOT,1
+SEND,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+TEXT,1
+------------------------------ SMS,  EH2 S EH2 M EH1 S
+HE,6
+JUST,1
+LEFT,1
+WITH,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BRAT,1
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BRAT,1
+.......... WHO,SPECIAL
+SANG,2
+WELL,1
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SPOT,1
+ON,1
+MICK,2
+------------------------------ S,  EH1 S
+GRIN,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+BAD,1
+.......... AND,SPECIAL
+SO,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+HE,6
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SAD,1
+BUT,1
+SHE,6
+DID,1
+NOT,1
+THINK,2
+MUCH,2
+.......... OF,SPECIAL
+HIM,1
+SO,6
+THAT,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+THAT,2
+SHE,6
+WENT,1
+BACK,2
+.......... TO,SPECIAL
+CLASS,1
+.......... AND,SPECIAL
+BACK,2
+.......... TO,SPECIAL
+HER,4
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+STATS,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+TOP,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CLASS,1
+.......... AND,SPECIAL
+HAD,1
+PALS,2
+.......... TO,SPECIAL
+SING,2
+WITH,2
+SO,6
+THAT,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+THAT,2
+TILL,1
+KAT,1
+GOT,1
+SICK,2
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+SICK,2
+SHE,6
+DID,1
+NOT,1
+THINK,2
+MUCH,2
+SHE,6
+HAD,1
+.......... TO,SPECIAL
+GO,6
+.......... TO,SPECIAL
+BED,1
+.......... AND,SPECIAL
+THEN,2
+IT,1
+WENT,1
+FOR,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CRAB,1
+SHE,6
+HAD,1
+WITH,2
+MUM,1
+.......... AND,SPECIAL
+DAD,1
+OR,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+IT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+FRY,6
+UP,1
+SHE,6
+------------------------------ D,  D IY1
+HAD,1
+WITH,2
+SID,1
+.......... AND,SPECIAL
+JAN,1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+ODD,1
+SHE,6
+FELT,1
+SICK,2
+.......... AND,SPECIAL
+THEN,2
+------------------------------ OK,  OW1 K EY1
+.......... AND,SPECIAL
+THEN,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SICK,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+THEN,2
+KAT,1
+GOT,1
+FAT,1
+.......... AND,SPECIAL
+SHE,6
+THEN,2
+FELT,1
+SO,6
+SICK,2
+THIS,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CRAB,1
+OR,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+FRY,6
+UP,1
+THIS,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+THAT,2
+BRAT,1
+MICK,2
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+.......... AND,SPECIAL
+THAT,2
+DRINK,2
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SEX,1
+THIS,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+BAD,1
+IN,1
+KAT,1
+------------------------------ S,  EH1 S
+****************************** NOT IN DICTIONARY: TUM
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+KID,1
+THAT,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+WHY,6
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SICK,2
+KAT,1
+HAD,1
+.......... TO,SPECIAL
+TELL,1
+SHE,6
+HAD,1
+.......... TO,SPECIAL
+GET,1
+HELP,1
+.......... WHO,SPECIAL
+DID,1
+SHE,6
+TRUST,1
+SID,1
+.......... AND,SPECIAL
+JAN,1
+GOT,1
+CROSS,1
+WITH,2
+KAT,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+BUT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+.......... OF,SPECIAL
+THEM,2
+HAD,1
+GOT,1
+KAT,1
+BACK,2
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+SHE,6
+MUST,1
+TELL,1
+THEM,2
+CHAPTER,4
+STOP,1
+FOR,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+MIN,1
+.......... SAID,SPECIAL
+KAT,1
+.......... TO,SPECIAL
+SID,1
+.......... AND,SPECIAL
+JAN,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+END,1
+.......... OF,SPECIAL
+CLASS,1
+JUST,1
+AS,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+LUNCH,2
+BELL,1
+RANG,2
+I,6
+WILL,1
+BE,6
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+MUM,1
+SHE,6
+.......... SAID,SPECIAL
+QUICK,2
+.......... AND,SPECIAL
+FAST,1
+KAT,1
+------------------------------ S,  EH1 S
+THIN,2
+HAND,1
+HELD,1
+ON,1
+.......... TO,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+DESK,1
+AS,2
+SHE,6
+FELT,1
+SICK,2
+SHE,6
+DID,1
+NOT,1
+THINK,2
+SHE,6
+HAD,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GRIT,1
+.......... TO,SPECIAL
+.......... DO,SPECIAL
+THIS,2
+IF,1
+SID,1
+.......... AND,SPECIAL
+JAN,1
+DID,1
+NOT,1
+HELP,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+GLUM,1
+.......... AND,SPECIAL
+SAD,1
+****************************** NOT IN DICTIONARY: OMG
+JAN,1
+HELD,1
+KAT,1
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIG,1
+HUG,1
+SHE,6
+HELD,1
+KAT,1
+TILL,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SAD,1
+CRY,6
+WENT,1
+.......... AND,SPECIAL
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+STILL,1
+WHEN,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SHOCK,2
+WENT,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+HIM,1
+SID,1
+JUST,1
+HELD,1
+KAT,1
+TOO,6
+THAT,2
+LONG,2
+HUG,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+FAB,1
+PALS,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+STRONG,2
+SHE,6
+FELT,1
+THAT,2
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+------------------------------ OK,  OW1 K EY1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+JUST,1
+KAT,1
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BUB,1
+SHE,6
+HAD,1
+PALS,2
+TOO,6
+SHE,6
+HAD,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BEST,1
+PALS,2
+I,6
+MUST,1
+TELL,1
+MY,6
+MUM,1
+.......... AND,SPECIAL
+DAD,1
+.......... SAID,SPECIAL
+KAT,1
+HELP,1
+ME,6
+.......... DO,SPECIAL
+IT,1
+JAN,1
+.......... SAID,SPECIAL
+KAT,1
+SHE,6
+DID,1
+NOT,1
+THINK,2
+SHE,6
+------------------------------ D,  D IY1
+.......... DO,SPECIAL
+IT,1
+BUT,1
+SHE,6
+HAD,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BEST,1
+PAL,1
+.......... AND,SPECIAL
+JAN,1
+.......... SAID,SPECIAL
+YES,1
+I,6
+WILL,1
+AS,2
+SHE,6
+HELD,1
+KAT,1
+------------------------------ S,  EH1 S
+HAND,1
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+MAD,1
+SHE,6
+DID,1
+NOT,1
+THINK,2
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+IN,1
+WITH,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+PLAN,1
+KAT,1
+FELT,1
+BAD,1
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+SICK,2
+I,6
+WILL,1
+BE,6
+BACK,2
+BY,6
+TEN,1
+------------------------------ PM,  P IY1 EH1 M
+.......... SAID,SPECIAL
+SID,1
+HE,6
+HELD,1
+HIS,2
+BAG,1
+.......... AND,SPECIAL
+WENT,1
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SAD,1
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+CROSS,1
+****************************** NOT IN DICTIONARY: ITHINKSIDISMADWITHME
+****************************** NOT IN DICTIONARY: SAIDKATASSHELETASOBGO
+****************************** NOT IN DICTIONARY: JANHELDKATINA
+****************************** NOT IN DICTIONARY: NDHUGAND
+.......... SAID,SPECIAL
+HE,6
+IS,2
+------------------------------ OK,  OW1 K EY1
+HE,6
+IS,2
+CROSS,1
+HE,6
+DID,1
+NOT,1
+THINK,2
+MUCH,2
+.......... OF,SPECIAL
+MICK,2
+SID,1
+THINKS,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+LOT,1
+.......... OF,SPECIAL
+US,1
+.......... AND,SPECIAL
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+MAD,1
+WITH,2
+HIM,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+END,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+GIG,1
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+CROSS,1
+THEN,2
+.......... AND,SPECIAL
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+MAD,1
+THAT,2
+MICK,2
+LEFT,1
+SID,1
+WILL,1
+BE,6
+BACK,2
+KAT,1
+SAT,1
+IN,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BACK,2
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CLASS,1
+.......... AND,SPECIAL
+LET,1
+JAN,1
+HUG,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SAD,1
+TILL,1
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+LOST,1
+FOR,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BIT,1
+CHAPTER,4
+BUT,1
+MUM,1
+KAT,1
+SAT,1
+AT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+END,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BENCH,2
+.......... AND,SPECIAL
+JAN,1
+HELD,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+HAND,1
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+STRONG,2
+GRIP,1
+KAT,1
+------------------------------ S,  EH1 S
+MUM,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+CROSS,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+FULL,4
+.......... OF,SPECIAL
+SHOCK,2
+JAN,1
+.......... AND,SPECIAL
+SID,1
+HAD,1
+HELD,1
+KAT,1
+BUT,1
+MUM,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+RED,1
+.......... AND,SPECIAL
+CROSS,1
+.......... AND,SPECIAL
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+FULL,4
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+HUG,1
+DAD,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+STILL,1
+.......... AND,SPECIAL
+DID,1
+NOT,1
+.......... DO,SPECIAL
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+THING,2
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+JUST,1
+STILL,1
+GET,1
+RID,1
+.......... OF,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BUB,1
+KAT,1
+------------------------------ S,  EH1 S
+MUM,1
+.......... SAID,SPECIAL
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+BLURT,4
+AS,2
+SHE,6
+HELD,1
+ON,1
+.......... TO,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BENCH,2
+TOP,1
+KAT,1
+------------------------------ S,  EH1 S
+MUM,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+GLAD,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+SAD,1
+.......... AND,SPECIAL
+CROSS,1
+KAT,1
+GETS,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+IN,1
+****************************** NOT IN DICTIONARY: MATHS
+CLASS,1
+.......... AND,SPECIAL
+THIS,2
+BUB,1
+WILL,1
+MESS,1
+IT,1
+UP,1
+MUM,1
+LET,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SOB,1
+IN,1
+.......... TO,SPECIAL
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+STILL,1
+NESS,1
+NO,6
+.......... SAID,SPECIAL
+KAT,1
+WITH,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SAD,1
+SOB,1
+SHE,6
+DID,1
+NOT,1
+THINK,2
+MUCH,2
+.......... OF,SPECIAL
+THIS,2
+MESS,1
+BUT,1
+THIS,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+HER,4
+BUB,1
+.......... AND,SPECIAL
+THAT,2
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+THAT,2
+DAD,1
+.......... SAID,SPECIAL
+KAT,1
+DAD,1
+WENT,1
+.......... AND,SPECIAL
+HELD,1
+MUM,1
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+HUG,1
+KAT,1
+FELT,1
+LOST,1
+SHE,6
+LET,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SOB,1
+GO,6
+TOO,6
+JAN,1
+HELD,1
+KAT,1
+------------------------------ S,  EH1 S
+HAND,1
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRIP,1
+DID,1
+MUM,1
+.......... AND,SPECIAL
+DAD,1
+THINK,2
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SLUT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SHE,6
+THIS,2
+BAD,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SHE,6
+LEFT,1
+WITH,2
+THIS,2
+BUB,1
+.......... AND,SPECIAL
+NO,6
+MUM,1
+.......... AND,SPECIAL
+DAD,1
+.......... TO,SPECIAL
+HELP,1
+THEN,2
+DAD,1
+HELD,1
+KAT,1
+TOO,6
+HE,6
+HELD,1
+MUM,1
+.......... AND,SPECIAL
+KAT,1
+TILL,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SOBS,2
+WENT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRIN,1
+WENT,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+HIM,1
+.......... TO,SPECIAL
+KAT,1
+.......... AND,SPECIAL
+MUM,1
+DAD,1
+.......... SAID,SPECIAL
+KAT,1
+IT,1
+WILL,1
+BE,6
+------------------------------ OK,  OW1 K EY1
+MUM,1
+.......... SAID,SPECIAL
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+STILL,1
+.......... AND,SPECIAL
+NOT,1
+MAD,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SOFT,1
+I,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+WHEN,2
+I,6
+HAD,1
+MY,6
+****************************** NOT IN DICTIONARY: ST
+BUB,1
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+FULL,4
+.......... OF,SPECIAL
+SHOCK,2
+DAD,1
+HELD,1
+MUM,1
+.......... AND,SPECIAL
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SAD,1
+I,6
+GOT,1
+AN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+IN,1
+****************************** NOT IN DICTIONARY: MATHS
+AS,2
+WELL,1
+BUT,1
+GRAN,1
+DID,1
+NOT,1
+HELP,1
+.......... AND,SPECIAL
+I,6
+LEFT,1
+CLASS,1
+GRAN,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+CROSS,1
+.......... AND,SPECIAL
+MAD,1
+SO,6
+I,6
+RAN,1
+SHE,6
+DID,1
+NOT,1
+HELP,1
+MUM,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+SAD,1
+THAT,2
+KAT,1
+WENT,1
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ PUT,CLARIFY  PUT  P UH1 T
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+HAND,1
+ON,1
+HER,4
+BACK,2
+MUM,1
+~~~~~~~~~~~~~~~~~ PUT,CLARIFY  PUT  P UH1 T
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SOFT,1
+HAND,1
+ON,1
+KAT,1
+------------------------------ S,  EH1 S
+****************************** NOT IN DICTIONARY: TUM
+****************************** NOT IN DICTIONARY: IWASSOSADANDTHENILOSTTHEBUB
+****************************** NOT IN DICTIONARY: IWENTBACKTOGRANBUTITWASSOBADTHATILEFT
+I,6
+LEFT,1
+CLASS,1
+.......... AND,SPECIAL
+GOT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+JOB,1
+IN,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+SHOP,2
+THAT,2
+IS,2
+WHEN,2
+I,6
+MET,1
+DAD,1
+DAD,1
+HELD,1
+MUM,1
+------------------------------ S,  EH1 S
+HAND,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+SWELL,1
+.......... SAID,SPECIAL
+DAD,1
+WITH,2
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRIN,1
+WE,6
+WILL,1
+HELP,1
+.......... SAID,SPECIAL
+MUM,1
+BUT,1
+****************************** NOT IN DICTIONARY: MATHS
+CLASS,1
+WILL,1
+BE,6
+****************************** NOT IN DICTIONARY: ST
+TOO,6
+WE,6
+WILL,1
+HELP,1
+WITH,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BUB,1
+BUT,1
+****************************** NOT IN DICTIONARY: MATHS
+CLASS,1
+WILL,1
+STILL,1
+GO,6
+ON,1
+YES,1
+MUM,1
+YES,1
+DAD,1
+I,6
+WILL,1
+.......... DO,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+I,6
+WILL,1
+BE,6
+WITH,2
+MY,6
+BUB,1
+MY,6
+SAM,1
+WILL,1
+BE,6
+GLAD,1
+AS,2
+GRAN,1
+.......... AND,SPECIAL
+****************************** NOT IN DICTIONARY: GRAMPS
+WILL,1
+BE,6
+WITH,2
+HIM,1
+AS,2
+I,6
+.......... DO,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+MUM,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+FULL,4
+.......... OF,SPECIAL
+SHOCK,2
+THEN,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SHOCK,2
+WENT,1
+.......... AND,SPECIAL
+LEFT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRIN,1
+GRAN,1
+MY,6
+MY,6
+CAN,1
+I,6
+BE,6
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRAN,1
+AT,1
+JUST,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+SHOCK,2
+WENT,1
+IN,1
+.......... TO,SPECIAL
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRIN,1
+THAT,2
+IS,2
+------------------------------ OK,  OW1 K EY1
+I,6
+WILL,1
+BE,6
+SO,6
+FUN,1
+.......... AND,SPECIAL
+CAN,1
+STILL,1
+RUN,1
+WITH,2
+THIS,2
+BUB,1
+THIS,2
+GRAND,1
+BUB,1
+SAM,1
+CHAPTER,4
+CLICK,2
+WENT,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+LOCK,2
+.......... AND,SPECIAL
+SID,1
+RAN,1
+IN,1
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+HOT,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+RUN,1
+BUT,1
+GLAD,1
+HE,6
+.......... SAID,SPECIAL
+I,6
+GOT,1
+IT,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+JAN,1
+------------------------------ S,  EH1 S
+DAD,1
+HE,6
+SET,1
+UP,1
+THAT,2
+GIG,1
+LAST,1
+SPRING,2
+WITH,2
+HIS,2
+CLUB,1
+WE,6
+CAN,1
+------------------------------ SMS,  EH2 S EH2 M EH1 S
+MICK,2
+NO,6
+.......... SAID,SPECIAL
+MUM,1
+.......... AND,SPECIAL
+KAT,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+GRIN,1
+SET,1
+ON,1
+KAT,1
+------------------------------ S,  EH1 S
+LIP,1
+MUM,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+WITH,2
+KAT,1
+ON,1
+THIS,2
+SHE,6
+DID,1
+NOT,1
+THINK,2
+MUCH,2
+.......... OF,SPECIAL
+THAT,2
+BRAT,1
+MICK,2
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+.......... TO,SPECIAL
+BE,6
+WITH,2
+HER,4
+BUB,1
+SAM,1
+CASH,2
+SID,1
+.......... SAID,SPECIAL
+THAT,2
+BRAT,1
+WILL,1
+GET,1
+LOTS,1
+.......... OF,SPECIAL
+CASH,2
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BAND,1
+WE,6
+WILL,1
+GET,1
+IT,1
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+HIM,1
+.......... AND,SPECIAL
+IT,1
+WILL,1
+BE,6
+SO,6
+KAT,1
+CAN,1
+GO,6
+.......... TO,SPECIAL
+CLASS,1
+.......... AND,SPECIAL
+.......... DO,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+SHE,6
+CAN,1
+GET,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BEST,1
+JOB,1
+WITH,2
+HIS,2
+CASH,2
+SO,6
+SHE,6
+CAN,1
+BE,6
+IN,1
+CLASS,1
+AS,2
+WELL,1
+AS,2
+BE,6
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+MUM,1
+THANKS,2
+SID,1
+.......... SAID,SPECIAL
+KAT,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+GLAD,1
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+MAD,1
+HE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+NOT,1
+CROSS,1
+WITH,2
+KAT,1
+BUT,1
+WITH,2
+MICK,2
+SHE,6
+FELT,1
+GLAD,1
+THAT,2
+SID,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+STILL,1
+~~~~~~~~~~~~~~~~~ A,CLARIFY  A  AH0
+PAL,1
+I,6
+CAN,1
+GET,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CASH,2
+.......... SAID,SPECIAL
+SID,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+HUG,1
+SHE,6
+.......... AND,SPECIAL
+JAN,1
+.......... AND,SPECIAL
+SID,1
+HAD,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+LONG,2
+KAT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+SO,6
+GLAD,1
+THAT,2
+SHE,6
+HAD,1
+SUCH,2
+FAB,1
+PALS,2
+THAT,2
+------------------------------ S,  EH1 S
+------------------------------ OK,  OW1 K EY1
+.......... SAID,SPECIAL
+DAD,1
+WE,6
+WILL,1
+GET,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+COPS,1
+.......... TO,SPECIAL
+GET,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+CASH,2
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY  FROM  F R AH1 M
+THIS,2
+BRAT,1
+MICK,2
+THANKS,2
+SID,1
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+COPS,1
+WILL,1
+GET,1
+HIM,1
+WITH,2
+THIS,2
+.......... AND,SPECIAL
+HE,6
+WILL,1
+GET,1
+CASH,2
+.......... AND,SPECIAL
+HELP,1
+KAT,1
+CHAPTER,4
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BUB,1
+SLEPT,1
+IN,1
+KAT,1
+------------------------------ S,  EH1 S
+****************************** NOT IN DICTIONARY: TUM
+IT,1
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+STILL,1
+AT,1
+LAST,1
+SHE,6
+~~~~~~~~~~~~~~~~~ WAS,CLARIFY  WAS  W AA1 Z
+GLAD,1
+.......... TO,SPECIAL
+BE,6
+STILL,1
+IT,1
+LET,1
+KAT,1
+THINK,2
+SAM,1
+IS,2
+MY,6
+KID,1
+WITH,2
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+HELP,1
+.......... OF,SPECIAL
+MUM,1
+DAD,1
+JAN,1
+.......... AND,SPECIAL
+SID,1
+I,6
+WILL,1
+TRY,6
+.......... TO,SPECIAL
+HELP,1
+HIM,1
+.......... TO,SPECIAL
+BE,6
+~~~~~~~~~~~~~~~~~ THE,CLARIFY  THE  DH AH0
+BEST,1
+THAT,2
+HE,6
+CAN,1
+BE,6
+I,6
+WILL,1
+BE,6
+STRONG,2
+SO,6
+MY,6
+BUB,1
+CAN,1
+BE,6
+GLAD,1

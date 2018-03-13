@@ -1,0 +1,618 @@
+.......... THE,SPECIAL
+.......... OF,SPECIAL
+.......... AND,SPECIAL
+.......... TO,SPECIAL
+IN,1
+~~~~~~~~~~~~~~~~~ IS,CLARIFY
+~~~~~~~~~~~~~~~~~ YOU,CLARIFY
+THAT,2
+IT,1
+HE,6
+.......... WAS,SPECIAL
+FOR,4
+ON,1
+.......... ARE,SPECIAL
+.......... AS,SPECIAL
+WITH,2
+~~~~~~~~~~~~~~~~~ HIS,CLARIFY
+~~~~~~~~~~~~~~~~~ THEY,CLARIFY
+AT,1
+BE,6
+THIS,2
+.......... HAVE,SPECIAL
+~~~~~~~~~~~~~~~~~ FROM,CLARIFY
+OR,4
+.......... ONE,SPECIAL
+HAD,1
+BY,6
+~~~~~~~~~~~~~~~~~ WORDS,CLARIFY
+~~~~~~~~~~~~~~~~~ BUT,CLARIFY
+NOT,1
+.......... WHAT,SPECIAL
+ALL,4
+.......... WERE,SPECIAL
+WE,6
+WHEN,2
+~~~~~~~~~~~~~~~~~ YOUR,CLARIFY
+CAN,1
+.......... SAID,SPECIAL
+~~~~~~~~~~~~~~~~~ THERE,CLARIFY
+~~~~~~~~~~~~~~~~~ USE,CLARIFY
+AN,1
+EACH,5
+WHICH,2
+SHE,6
+.......... DO,SPECIAL
+HOW,6
+~~~~~~~~~~~~~~~~~ THEIR,CLARIFY
+IF,1
+WILL,1
+~~~~~~~~~~~~~~~~~ UP,CLARIFY
+~~~~~~~~~~~~~~~~~ OTHER,CLARIFY
+.......... ABOUT,SPECIAL
+OUT,6
+------------------------------ MANY,  M EH1 N IY0
+THEN,2
+THEM,2
+~~~~~~~~~~~~~~~~~ THESE,CLARIFY
+SO,6
+~~~~~~~~~~~~~~~~~ SOME,CLARIFY
+HER,4
+WOULD,8
+MAKE,3
+LIKE,3
+HIM,1
+.......... INTO,SPECIAL
+TIME,3
+.......... HAS,SPECIAL
+LOOK,6
+.......... TWO,SPECIAL
+MORE,3
+~~~~~~~~~~~~~~~~~ WRITE,CLARIFY
+GO,6
+~~~~~~~~~~~~~~~~~ SEE,CLARIFY
+~~~~~~~~~~~~~~~~~ NUMBER,CLARIFY
+NO,6
+WAY,6
+COULD,8
+~~~~~~~~~~~~~~~~~ PEOPLE,CLARIFY
+~~~~~~~~~~~~~~~~~ PEACE,CLARIFY
+~~~~~~~~~~~~~~~~~ PEACEFUL,CLARIFY
+MY,6
+THAN,2
+THANK,2
+THANKS,2
+FIRST,4
+WATER,4
+~~~~~~~~~~~~~~~~~ BEEN,CLARIFY
+CALLED,8
+.......... WHO,SPECIAL
+OIL,6
+SIT,1
+NOW,6
+~~~~~~~~~~~~~~~~~ FIND,CLARIFY
+LONG,2
+DOWN,6
+DAY,6
+DID,1
+GET,1
+~~~~~~~~~~~~~~~~~ COME,CLARIFY
+MADE,3
+MAY,6
+PART,4
+OVER,6
+NEW,5
+SOUND,6
+TAKE,3
+ONLY,6
+LITTLE,6
+TINY,6
+WORK,4
+~~~~~~~~~~~~~~~~~ KNOW,CLARIFY
+~~~~~~~~~~~~~~~~~ PLACE,CLARIFY
+~~~~~~~~~~~~~~~~~ YEARS,CLARIFY
+LIVE,3
+ME,6
+BACK,2
+~~~~~~~~~~~~~~~~~ GIVE,CLARIFY
+MOST,6
+VERY,6
+AFTER,4
+~~~~~~~~~~~~~~~~~ THINGS,CLARIFY
+------------------------------ OUR,  AW1 ER0
+~~~~~~~~~~~~~~~~~ JUST,CLARIFY
+NAME,3
+GOOD,6
+~~~~~~~~~~~~~~~~~ SENTENCE,CLARIFY
+MAN,1
+------------------------------ WOMAN,  W UH1 M AH0 N
+------------------------------ WOMEN,  W IH1 M AH0 N
+THINK,2
+SAY,6
+~~~~~~~~~~~~~~~~~ GREAT,CLARIFY
+~~~~~~~~~~~~~~~~~ WHERE,CLARIFY
+HELP,1
+THROUGH,8
+~~~~~~~~~~~~~~~~~ MUCH,CLARIFY
+------------------------------ BEFORE,  B IH0 F AO1 R
+LINE,3
+RIGHT,5
+~~~~~~~~~~~~~~~~~ TOO,CLARIFY
+~~~~~~~~~~~~~~~~~ MEANS,CLARIFY
+OLD,6
+------------------------------ ANY,  EH1 N IY0
+SAME,3
+TELL,1
+BOY,6
+~~~~~~~~~~~~~~~~~ FUN,CLARIFY
+FOLLOWING,5
+CAME,3
+WANT,4
+SHOW,5
+------------------------------ ALSO,  AO1 L S OW0
+------------------------------ AROUND,  ER0 AW1 N D
+FORM,4
+THREE,5
+SMALL,4
+SMILE,3
+SET,1
+------------------------------ PUT,  P UH1 T
+END,1
+------------------------------ DOES,  D AH1 Z
+.......... ANOTHER,SPECIAL
+WELL,1
+~~~~~~~~~~~~~~~~~ LARGE,CLARIFY
+~~~~~~~~~~~~~~~~~ MUST,CLARIFY
+BIG,1
+------------------------------ EVEN,  IY1 V IH0 N
+~~~~~~~~~~~~~~~~~ SUCH,CLARIFY
+------------------------------ BECAUSE,  B IH0 K AO1 Z
+TURNED,8
+HERE,3
+ASKED,8
+WENT,1
+MEN,1
+READ,7
+NEED,8
+LAND,1
+~~~~~~~~~~~~~~~~~ DIFFERENT,CLARIFY
+HOME,3
+~~~~~~~~~~~~~~~~~ US,CLARIFY
+~~~~~~~~~~~~~~~~~ MOVE,CLARIFY
+TRY,6
+~~~~~~~~~~~~~~~~~ KIND,CLARIFY
+~~~~~~~~~~~~~~~~~ KINDNESS,CLARIFY
+HAND,1
+------------------------------ PICTURE,  P IH1 K CH ER0
+------------------------------ AGAIN,  AH0 G EH1 N
+~~~~~~~~~~~~~~~~~ CHANGE,CLARIFY
+------------------------------ ANGRY,  AE1 NG G R IY0
+OFF,1
+PLAY,6
+LAUGH,8
+SPELL,1
+CREATE,6
+------------------------------ BREATHE,  B R IY1 DH
+AIR,7
+.......... AWAY,SPECIAL
+------------------------------ ANIMALS,  AE1 N AH0 M AH0 L Z
+~~~~~~~~~~~~~~~~~ HOUSE,CLARIFY
+POINT,6
+~~~~~~~~~~~~~~~~~ PAGE,CLARIFY
+~~~~~~~~~~~~~~~~~ LETTERS,CLARIFY
+~~~~~~~~~~~~~~~~~ MOTHER,CLARIFY
+SISTER,4
+------------------------------ ANSWER,  AE1 N S ER0
+FOUND,6
+~~~~~~~~~~~~~~~~~ STUDY,CLARIFY
+STILL,1
+LEARN,7
+SHOULD,8
+WORLD,4
+HIGH,5
+EVERY,6
+NEAR,5
+ADD,1
+~~~~~~~~~~~~~~~~~ FOOD,CLARIFY
+------------------------------ BETWEEN,  B IH0 T W IY1 N
+OWN,5
+------------------------------ BELOW,  B IH0 L OW1
+------------------------------ COUNTRY,  K AH1 N T R IY0
+PLANTS,1
+LAST,1
+~~~~~~~~~~~~~~~~~ SCHOOL,CLARIFY
+------------------------------ FATHER,  F AA1 DH ER0
+DAD,1
+DADDY,6
+MOM,1
+MOMMY,6
+KEEP,5
+~~~~~~~~~~~~~~~~~ TREES,CLARIFY
+NEVER,4
+~~~~~~~~~~~~~~~~~ STARTED,CLARIFY
+CITY,7
+EARTH,7
+------------------------------ EYES,  AY1 Z
+LIGHT,5
+THOUGHT,8
+HEAD,7
+~~~~~~~~~~~~~~~~~ UNDER,CLARIFY
+STORY,6
+SAW,6
+LEFT,1
+~~~~~~~~~~~~~~~~~ FEW,CLARIFY
+WHILE,3
+.......... ALONG,SPECIAL
+MIGHT,5
+~~~~~~~~~~~~~~~~~ CLOSE,CLARIFY
+~~~~~~~~~~~~~~~~~ SOMETHING,CLARIFY
+~~~~~~~~~~~~~~~~~ SEEMED,CLARIFY
+NEXT,1
+HARD,4
+~~~~~~~~~~~~~~~~~ OPEN,CLARIFY
+------------------------------ EXAMPLE,  IH0 G Z AE1 M P AH0 L
+------------------------------ BEGINNING,  B IH0 G IH1 N IH0 NG
+LIFE,3
+------------------------------ ALWAYS,  AO1 L W EY2 Z
+~~~~~~~~~~~~~~~~~ THOSE,CLARIFY
+BOTH,6
+PAPER,6
+~~~~~~~~~~~~~~~~~ TOGETHER,CLARIFY
+GOT,1
+~~~~~~~~~~~~~~~~~ GROUP,CLARIFY
+~~~~~~~~~~~~~~~~~ OFTEN,CLARIFY
+~~~~~~~~~~~~~~~~~ RUN,CLARIFY
+.......... IMPORTANT,SPECIAL
+~~~~~~~~~~~~~~~~~ UNTIL,CLARIFY
+~~~~~~~~~~~~~~~~~ CHILDREN,CLARIFY
+FEET,5
+CAR,4
+~~~~~~~~~~~~~~~~~ MILES,CLARIFY
+NIGHT,5
+------------------------------ WALKED,  W AO1 K T
+WHITE,3
+SEA,5
+------------------------------ BEGAN,  B IH0 G AE1 N
+GROW,5
+TOOK,6
+RIVER,4
+~~~~~~~~~~~~~~~~~ FOUR,CLARIFY
+CARRY,6
+STATE,3
+------------------------------ ONCE,  W AH1 N S
+BOOK,6
+HEAR,5
+STOP,1
+WITHOUT,6
+~~~~~~~~~~~~~~~~~ SECOND,CLARIFY
+LATER,6
+MISS,1
+.......... IDEA,SPECIAL
+------------------------------ ENOUGH,  IH0 N AH1 F
+EAT,5
+~~~~~~~~~~~~~~~~~ FACE,CLARIFY
+WATCH,7
+FAR,4
+REALLY,6
+------------------------------ ALMOST,  AO1 L M OW2 S T
+LET,1
+------------------------------ ABOVE,  AH0 B AH1 V
+GIRL,4
+------------------------------ SOMETIMES,  S AH0 M T AY1 M Z
+~~~~~~~~~~~~~~~~~ MOUNTAINS,CLARIFY
+~~~~~~~~~~~~~~~~~ CUT,CLARIFY
+------------------------------ YOUNG,  Y AH1 NG
+------------------------------ TALK,  T AO1 K
+TALL,4
+~~~~~~~~~~~~~~~~~ SOON,CLARIFY
+LIST,1
+SONG,2
+BEING,6
+------------------------------ LEAVE,  L IY1 V
+------------------------------ FAMILY,  F AE1 M AH0 L IY0
+BODY,6
+------------------------------ MUSIC,  M Y UW1 Z IH0 K
+------------------------------ COLOR,  K AH1 L ER0
+STAND,1
+~~~~~~~~~~~~~~~~~ SUN,CLARIFY
+------------------------------ QUESTIONS,  K W EH1 S CH AH0 N Z
+FISH,2
+------------------------------ AREA,  EH1 R IY0 AH0
+MARK,4
+DOG,1
+~~~~~~~~~~~~~~~~~ HORSE,CLARIFY
+~~~~~~~~~~~~~~~~~ BIRDS,CLARIFY
+~~~~~~~~~~~~~~~~~ PROBLEM,CLARIFY
+------------------------------ COMPETE,  K AH0 M P IY1 T
+~~~~~~~~~~~~~~~~~ ROOM,CLARIFY
+~~~~~~~~~~~~~~~~~ KNEW,CLARIFY
+~~~~~~~~~~~~~~~~~ SINCE,CLARIFY
+EVER,4
+------------------------------ PIECE,  P IY1 S
+TOLD,6
+------------------------------ USUALLY,  Y UW1 ZH AH0 W AH0 L IY0
+------------------------------ FRIENDS,  F R EH1 N D Z
+~~~~~~~~~~~~~~~~~ EASY,CLARIFY
+HEARD,7
+ORDER,4
+RED,1
+~~~~~~~~~~~~~~~~~ DOOR,CLARIFY
+------------------------------ SURE,  SH UH1 R
+------------------------------ BECOME,  B IH0 K AH1 M
+TOP,1
+SHIP,2
+.......... ACROSS,SPECIAL
+~~~~~~~~~~~~~~~~~ TODAY,CLARIFY
+------------------------------ DURING,  D UH1 R IH0 NG
+SHORT,4
+BETTER,4
+BEST,1
+HOWEVER,6
+LOW,5
+------------------------------ HOURS,  AW1 ER0 Z
+BLACK,2
+~~~~~~~~~~~~~~~~~ PRODUCTS,CLARIFY
+~~~~~~~~~~~~~~~~~ HAPPENED,CLARIFY
+------------------------------ WHOLE,  HH OW1 L
+------------------------------ MEASURE,  M EH1 ZH ER0
+------------------------------ REMEMBER,  R IH0 M EH1 M B ER0
+EARLY,7
+~~~~~~~~~~~~~~~~~ WAVES,CLARIFY
+REACHED,8
+~~~~~~~~~~~~~~~~~ LISTEN,CLARIFY
+~~~~~~~~~~~~~~~~~ WIND,CLARIFY
+ROCK,2
+~~~~~~~~~~~~~~~~~ SPACE,CLARIFY
+~~~~~~~~~~~~~~~~~ COVERED,CLARIFY
+FAST,1
+.......... SEVERAL,SPECIAL
+HOLD,6
+HIMSELF,1
+~~~~~~~~~~~~~~~~~ TOWARD,CLARIFY
+FIVE,3
+STEP,1
+MORNING,4
+PASSED,8
+~~~~~~~~~~~~~~~~~ VOWEL,CLARIFY
+TRUE,5
+~~~~~~~~~~~~~~~~~ HUNDRED,CLARIFY
+------------------------------ AGAINST,  AH0 G EH1 N S T
+PATTERN,4
+------------------------------ NUMERAL,  N UW1 M ER0 AH0 L
+TABLE,6
+NORTH,4
+SLEEP,5
+SLOW,5
+SLOWLY,6
+~~~~~~~~~~~~~~~~~ MONEY,CLARIFY
+MAP,1
+FARM,4
+PULLED,8
+DRAW,6
+~~~~~~~~~~~~~~~~~ VOICE,CLARIFY
+~~~~~~~~~~~~~~~~~ SEEN,CLARIFY
+COLD,6
+CRIED,8
+PLAN,1
+------------------------------ NOTICE,  N OW1 T AH0 S
+SOUTH,6
+SING,2
+WAR,4
+GROUND,6
+FALL,4
+KING,2
+TOWN,6
+------------------------------ UNIT,  Y UW1 N AH0 T
+------------------------------ FIGURE,  F IH1 G Y ER0
+~~~~~~~~~~~~~~~~~ CERTAIN,CLARIFY
+------------------------------ FIELD,  F IY1 L D
+~~~~~~~~~~~~~~~~~ TRAVEL,CLARIFY
+WOOD,6
+FIRE,3
+~~~~~~~~~~~~~~~~~ UPON,CLARIFY
+------------------------------ DONE,  D AH1 N
+------------------------------ ENGLISH,  IH1 NG G L IH0 SH
+ROAD,5
+------------------------------ HALF,  HH AE1 F
+TEN,1
+FLY,6
+GAVE,3
+BOX,1
+------------------------------ OH,  OW1
+.......... FINALLY,SPECIAL
+WAIT,5
+------------------------------ CORRECT,  K ER0 EH1 K T
+QUICKLY,6
+~~~~~~~~~~~~~~~~~ PERSON,CLARIFY
+------------------------------ BECAME,  B IH0 K EY1 M
+SHOWN,5
+------------------------------ MINUTES,  M IH1 N AH0 T S
+STRONG,2
+VERB,4
+~~~~~~~~~~~~~~~~~ STARS,CLARIFY
+~~~~~~~~~~~~~~~~~ FRONT,CLARIFY
+FEEL,5
+FACT,1
+~~~~~~~~~~~~~~~~~ INCHES,CLARIFY
+STREET,5
+------------------------------ DECIDED,  D IH2 S AY1 D IH0 D
+~~~~~~~~~~~~~~~~~ CONTAIN,CLARIFY
+~~~~~~~~~~~~~~~~~ COURSE,CLARIFY
+.......... SURFACE,SPECIAL
+~~~~~~~~~~~~~~~~~ PRODUCE,CLARIFY
+------------------------------ BUILDING,  B IH1 L D IH0 NG
+------------------------------ OCEAN,  OW1 SH AH0 N
+CLASS,1
+NOTE,3
+~~~~~~~~~~~~~~~~~ NOTHING,CLARIFY
+REST,1
+~~~~~~~~~~~~~~~~~ CAREFULLY,CLARIFY
+~~~~~~~~~~~~~~~~~ SCIENCE,CLARIFY
+~~~~~~~~~~~~~~~~~ SCIENTIST,CLARIFY
+INSIDE,3
+~~~~~~~~~~~~~~~~~ WHEELS,CLARIFY
+STAY,6
+GREEN,5
+~~~~~~~~~~~~~~~~~ KNOWN,CLARIFY
+------------------------------ ISLAND,  AY1 L AH0 N D
+WEEK,5
+LESS,1
+------------------------------ MACHINE,  M AH0 SH IY1 N
+~~~~~~~~~~~~~~~~~ BASE,CLARIFY
+.......... AGO,SPECIAL
+STOOD,6
+PLANE,3
+~~~~~~~~~~~~~~~~~ SYSTEM,CLARIFY
+------------------------------ BEHIND,  B IH0 HH AY1 N D
+RAN,1
+ROUND,6
+BOAT,5
+GAME,3
+~~~~~~~~~~~~~~~~~ FORCE,CLARIFY
+BROUGHT,8
+~~~~~~~~~~~~~~~~~ UNDERSTAND,CLARIFY
+WARM,4
+~~~~~~~~~~~~~~~~~ COMMON,CLARIFY
+BRING,2
+------------------------------ EXPLAIN,  IH0 K S P L EY1 N
+DRY,6
+THOUGH,8
+------------------------------ LANGUAGE,  L AE1 NG G W AH0 JH
+SHAPE,3
+DEEP,5
+.......... THOUSANDS,SPECIAL
+YES,1
+CLEAR,5
+------------------------------ EQUATION,  IH0 K W EY1 ZH AH0 N
+YET,1
+~~~~~~~~~~~~~~~~~ GOVERNMENT,CLARIFY
+FILLED,8
+HEAT,5
+FULL,4
+HOT,1
+CHECK,2
+OBJECT,1
+AM,1
+------------------------------ RULE,  R UW1 L
+.......... AMONG,SPECIAL
+NOUN,6
+POWER,6
+------------------------------ CANNOT,  K AE1 N AA0 T
+ABLE,6
+SIX,1
+SIZE,3
+DARK,4
+BALL,4
+------------------------------ MATERIAL,  M AH0 T IH1 R IY0 AH0 L
+------------------------------ SPECIAL,  S P EH1 SH AH0 L
+HEAVY,7
+FINE,3
+PAIR,7
+CIRCLE,7
+INCLUDE,3
+------------------------------ BUILT,  B IH1 L T
+MATTER,4
+SQUARE,7
+.......... SYLLABLES,SPECIAL
+PERHAPS,4
+BILL,1
+FELT,1
+~~~~~~~~~~~~~~~~~ SUDDENLY,CLARIFY
+TEST,1
+------------------------------ DIRECTION,  D ER0 EH1 K SH AH0 N
+CENTER,7
+~~~~~~~~~~~~~~~~~ FARMERS,CLARIFY
+READY,7
+------------------------------ ANYTHING,  EH1 N IY0 TH IH2 NG
+DIVIDED,8
+.......... GENERAL,SPECIAL
+ENERGY,7
+~~~~~~~~~~~~~~~~~ SUBJECT,CLARIFY
+~~~~~~~~~~~~~~~~~ MOON,CLARIFY
+~~~~~~~~~~~~~~~~~ PLEASE,CLARIFY
+------------------------------ REGION,  R IY1 JH AH0 N
+------------------------------ RETURN,  R IH0 T ER1 N
+------------------------------ BELIEVE,  B IH0 L IY1 V
+~~~~~~~~~~~~~~~~~ DANCE,CLARIFY
+~~~~~~~~~~~~~~~~~ MEMBERS,CLARIFY
+PICKED,8
+SIMPLE,6
+~~~~~~~~~~~~~~~~~ CELLS,CLARIFY
+PAINT,5
+~~~~~~~~~~~~~~~~~ MIND,CLARIFY
+------------------------------ LOVE,  L AH1 V
+------------------------------ CAUSE,  K AA1 Z
+RAIN,5
+~~~~~~~~~~~~~~~~~ EXERCISE,CLARIFY
+~~~~~~~~~~~~~~~~~ EGGS,CLARIFY
+TRAIN,5
+BLUE,5
+YELLOW,5
+WISH,2
+DROP,1
+------------------------------ DEVELOPED,  D IH0 V EH1 L AH0 P T
+WINDOW,5
+~~~~~~~~~~~~~~~~~ DIFFERENCE,CLARIFY
+.......... DISTANCE,SPECIAL
+------------------------------ HEART,  HH AA1 R T
+~~~~~~~~~~~~~~~~~ SUM,CLARIFY
+~~~~~~~~~~~~~~~~~ SUMMER,CLARIFY
+WALL,4
+~~~~~~~~~~~~~~~~~ FOREST,CLARIFY
+------------------------------ PROBABLY,  P R AA1 B AH0 B L IY2
+~~~~~~~~~~~~~~~~~ LEGS,CLARIFY
+SAT,1
+MAIN,5
+WINTER,4
+SIDE,3
+~~~~~~~~~~~~~~~~~ WRITTEN,CLARIFY
+------------------------------ LENGTH,  L EH1 NG K TH
+~~~~~~~~~~~~~~~~~ REASON,CLARIFY
+KEPT,1
+~~~~~~~~~~~~~~~~~ INTEREST,CLARIFY
+~~~~~~~~~~~~~~~~~ ARMS,CLARIFY
+~~~~~~~~~~~~~~~~~ BROTHER,CLARIFY
+BROWN,6
+~~~~~~~~~~~~~~~~~ RACE,CLARIFY
+~~~~~~~~~~~~~~~~~ PRESENT,CLARIFY
+------------------------------ BEAUTIFUL,  B Y UW1 T AH0 F AH0 L
+------------------------------ PRETTY,  P R IH1 T IY0
+STORE,3
+JOB,1
+JOY,6
+SAD,1
+EDGE,7
+PAST,1
+SIGN,8
+~~~~~~~~~~~~~~~~~ RECORD,CLARIFY
+FINISHED,8
+~~~~~~~~~~~~~~~~~ DISCOVERED,CLARIFY
+WILD,6
+HAPPY,6
+------------------------------ HAPPINESS,  HH AE1 P IY0 N AH0 S
+------------------------------ BESIDE,  B IH0 S AY1 D
+------------------------------ GONE,  G AO1 N
+SKY,6
+GLASS,1
+------------------------------ MILLION,  M IH1 L Y AH0 N
+WEST,1
+LAY,6
+WEATHER,7
+~~~~~~~~~~~~~~~~~ ROOT,CLARIFY
+~~~~~~~~~~~~~~~~~ INSTRUMENTS,CLARIFY
+MEET,5
+THIRD,4
+~~~~~~~~~~~~~~~~~ MONTHS,CLARIFY
+.......... PARAGRAPH,SPECIAL
+~~~~~~~~~~~~~~~~~ RAISED,CLARIFY
+~~~~~~~~~~~~~~~~~ REPRESENT,CLARIFY
+SOFT,1
+WHETHER,4
+------------------------------ CLOTHES,  K L OW1 DH Z
+~~~~~~~~~~~~~~~~~ FLOWERS,CLARIFY
+SHALL,2
+TEACHER,5
+HELD,1
+------------------------------ DESCRIBE,  D IH0 S K R AY1 B
+DRIVE,3
+KID,1

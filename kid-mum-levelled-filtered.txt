@@ -1,0 +1,322 @@
+CHAPTER,4
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+------------------------------ S,  EH1 S
+------------------------------ S,  EH1 S
+LITTLE,6
+****************************** NOT IN DICTIONARY: OMG
+------------------------------ S,  EH1 S
+DRY,6
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+****************************** NOT IN DICTIONARY: MATHS
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+****************************** NOT IN DICTIONARY: MATHS
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+NO,6
+.......... ONE,SPECIAL
+BE,6
+CHAPTER,4
+------------------------------ S,  EH1 S
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+------------------------------ JINX,  JH IH1 NG K S
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+****************************** NOT IN DICTIONARY: WHIZZ
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+****************************** NOT IN DICTIONARY: MATHS
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+------------------------------ S,  EH1 S
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+CHAPTER,4
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+------------------------------ JINX,  JH IH1 NG K S
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+****************************** NOT IN DICTIONARY: ST
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+.......... WERE,SPECIAL
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+CHAPTER,4
+AFTER,4
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ SMS,  EH2 S EH2 M EH1 S
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... WHO,SPECIAL
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+GO,6
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+FRY,6
+------------------------------ D,  D IY1
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+------------------------------ OK,  OW1 K EY1
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+FRY,6
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+------------------------------ S,  EH1 S
+****************************** NOT IN DICTIONARY: TUM
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... WHO,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+CHAPTER,4
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+I,6
+BE,6
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+------------------------------ S,  EH1 S
+.......... DO,SPECIAL
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+****************************** NOT IN DICTIONARY: OMG
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+CRY,6
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+------------------------------ OK,  OW1 K EY1
+.......... AND,SPECIAL
+I,6
+MY,6
+.......... AND,SPECIAL
+ME,6
+.......... DO,SPECIAL
+------------------------------ D,  D IY1
+.......... DO,SPECIAL
+.......... AND,SPECIAL
+I,6
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+I,6
+BE,6
+BY,6
+------------------------------ PM,  P IY1 EH1 M
+.......... AND,SPECIAL
+****************************** NOT IN DICTIONARY: ITHINKSIDISMADWITHME
+****************************** NOT IN DICTIONARY: SAIDKATASSHELETASOBGO
+****************************** NOT IN DICTIONARY: JANHELDKATINA
+****************************** NOT IN DICTIONARY: NDHUGAND
+------------------------------ OK,  OW1 K EY1
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+BE,6
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+CHAPTER,4
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... DO,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ S,  EH1 S
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+BLURT,4
+------------------------------ S,  EH1 S
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+NO,6
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+GO,6
+------------------------------ S,  EH1 S
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+.......... AND,SPECIAL
+NO,6
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+.......... AND,SPECIAL
+BE,6
+------------------------------ OK,  OW1 K EY1
+.......... AND,SPECIAL
+I,6
+I,6
+MY,6
+****************************** NOT IN DICTIONARY: ST
+.......... AND,SPECIAL
+I,6
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+I,6
+.......... AND,SPECIAL
+I,6
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ S,  EH1 S
+****************************** NOT IN DICTIONARY: TUM
+****************************** NOT IN DICTIONARY: IWASSOSADANDTHENILOSTTHEBUB
+****************************** NOT IN DICTIONARY: IWENTBACKTOGRANBUTITWASSOBADTHATILEFT
+I,6
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+I,6
+------------------------------ S,  EH1 S
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+WE,6
+****************************** NOT IN DICTIONARY: MATHS
+BE,6
+****************************** NOT IN DICTIONARY: ST
+WE,6
+****************************** NOT IN DICTIONARY: MATHS
+GO,6
+I,6
+.......... DO,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+I,6
+BE,6
+MY,6
+MY,6
+BE,6
+.......... AND,SPECIAL
+****************************** NOT IN DICTIONARY: GRAMPS
+BE,6
+I,6
+.......... DO,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+MY,6
+MY,6
+I,6
+BE,6
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ OK,  OW1 K EY1
+I,6
+BE,6
+.......... AND,SPECIAL
+CHAPTER,4
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+I,6
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+------------------------------ S,  EH1 S
+WE,6
+------------------------------ SMS,  EH2 S EH2 M EH1 S
+NO,6
+.......... AND,SPECIAL
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+------------------------------ S,  EH1 S
+BE,6
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+WE,6
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+.......... AND,SPECIAL
+BE,6
+GO,6
+.......... AND,SPECIAL
+.......... DO,SPECIAL
+****************************** NOT IN DICTIONARY: MATHS
+BE,6
+BE,6
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+~~~~~~~~~~~~~~~~~ A, CLARIFY
+I,6
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+------------------------------ S,  EH1 S
+------------------------------ OK,  OW1 K EY1
+WE,6
+~~~~~~~~~~~~~~~~~ FROM, CLARIFY
+.......... AND,SPECIAL
+.......... AND,SPECIAL
+CHAPTER,4
+------------------------------ S,  EH1 S
+****************************** NOT IN DICTIONARY: TUM
+BE,6
+MY,6
+.......... AND,SPECIAL
+I,6
+TRY,6
+BE,6
+BE,6
+I,6
+BE,6
+MY,6
+BE,6

@@ -18,9 +18,14 @@ my $i;
 
 my $verbose = '';
 my $help = '';
-my $level = 1;
+my $maxLevel = 0;
+my $ignore = '';
+my $debugFlag = '';
 GetOptions ( 'verbose' => \$verbose, 
 	'help' => \$help,
+	'debug' => \$debugFlag,
+	'max=i' => \$maxLevel,
+	'ignore=s' => \$ignore,
  );
 
 if ($help){
@@ -31,6 +36,25 @@ if ($help){
 	exit;
 }
 
+my %wordsToIgnore;
+if ($ignore){
+
+
+	my $filename = $ignore;
+	open(my $fh, '<:encoding(UTF-8)', $filename)
+  		or die "Could not open file '$filename' $!";
+ 
+	while (my $row = <$fh>) {
+  		chomp $row;
+  		$wordsToIgnore{ uc $row } = 1;
+	}
+
+	# foreach my $word ( @wordsToIgnore ){
+	# 	print("--- $word \n");
+	# }
+
+
+}
 
 my $pronouncingDico;
 {
@@ -47,20 +71,20 @@ my @pgcTables;
 
 #Level 1
 push @gpcTables, {
-	'A' => [ 'AE1', 'AH0' ], # APPLE; ADHERE
+	'A' => [ 'AE0', 'AE1', 'AE2'], # APPLE; ADHERE
 	'B' => 'B',
 	'BB' => 'B',
 	'C' => 'K',
 	'CC' => 'K',
 	'D' => 'D',
 	'DD' => 'D',
-	'E' => 'EH1',
+	'E' => ['EH0','EH1','EH2'], # EGG
 	'F' => 'F',
 	'FF' => 'F',
 	'G' => 'G',
 	'GG' => 'G',
 	'H' => 'HH',
-	'I' => [ 'IH1', 'IH2', 'IH0' ],
+	'I' => [ 'IH1', 'IH2', 'IH0' ], #IGLOO
 	'J' => 'JH',
 	'K' => 'K',
 	'L' => 'L',
@@ -69,17 +93,16 @@ push @gpcTables, {
 	'MM' => 'M',
 	'N' => 'N',
 	'NN' => 'N',
-	'O' => [ 'AA1', 'AO1' ],
+	'O' => [ 'AA1', 'AO1' ], #ON
 	'P' => 'P',
 	'PP' => 'P',
-	'Q'	=> 'K',
 	'R' => 'R',
 	'RR' => 'R',
 	'S' => 'S',
 	'SS' => 'S',
 	'T' => 'T',
 	'TT' => 'T',
-	'U' => ['AH1', 'AH2'],
+	'U' => ['AH0', 'AH1', 'AH2'], #UP
 	'V' => 'V',
 	'VV' => 'V',
 	'W' => 'W',
@@ -99,39 +122,45 @@ push @gpcTables, {
 	'NG' => 'NG',
 	'NK' => 'NG K',
 	'QU' => 'K W',
+	'S' => 'Z', #PALS
 	};
 
 #Level 3
 push @gpcTables, {
 	'PH' => 'F',
-	'ABE' => 'EY1 B',
-	'ADE' => 'EY1 D',
-	'AKE' => 'EY1 K',
-	'ALE' => 'EY1 L',
-	'AME' => 'EY1 M',
-	'ANE' => 'EY1 N',
-	'APE' => 'EY1 P',
-	'ASE' => 'EY1 S',
-	'ATE' => 'EY1 T',
-	'AVE' => 'EY1 V',
-	'AZE' => 'EY1 Z',
-	'IBE' => 'AY1 B',
-	'IDE' => 'AY1 D',
-	'IFE' => 'AY1 F',
-	'IKE' => 'AY1 K',
-	'ILE' => 'AY1 L',
-	'IME' => 'AY1 M',
-	'INE' => 'AY1 N',
-	'IPE' => 'AY1 P',
+	'ABE' => ['EY0 B','EY1 B','EY2 B'],
+	'ADE' => ['EY0 D','EY1 D','EY2 D'],
+	'AFE' => ['EY0 F','EY1 F','EY2 F'],
+	'AKE' => ['EY0 K','EY1 K','EY2 K'],
+	'ALE' => ['EY0 L','EY1 L','EY2 L'],
+	'AME' => ['EY0 M','EY1 M','EY2 M'],
+	'ANE' => ['EY0 N','EY1 N','EY2 N'],
+	'APE' => ['EY0 P','EY1 P','EY2 P'],
+	'ASE' => ['EY0 S','EY1 S','EY2 S'],
+	'ATE' => ['EY0 T','EY1 T','EY2 T'],
+	'AVE' => ['EY0 V','EY1 V','EY2 V'],
+	'AZE' => ['EY0 Z','EY1 Z','EY2 Z'],
+	'IBE' => ['AY0 B','AY1 B','AY2 B',],
+	'IDE' => ['AY0 D','AY1 D','AY2 D',],
+	'IFE' => ['AY0 F','AY1 F','AY2 F',],
+	'IKE' => ['AY0 K','AY1 K','AY2 K',],
+	'ILE' => ['AY0 L','AY1 L','AY2 L',],
+	'IME' => ['AY0 M','AY1 M','AY2 M',],
+	'INE' => ['AY0 N','AY1 N','AY2 N',],
+	'IPE' => ['AY0 P','AY1 P','AY2 P',],
 	'IRE' => 'AY1 ER0',
-	'ITE' => 'AY1 T',
-	'IVE' => 'AY1 V',
-	'IZE' => 'AY1 Z',
+	'ITE' => ['AY0 T','AY1 T','AY2 T',],
+	'IVE' => ['AY0 V','AY1 V','AY2 V',],
+	'IZE' => ['AY0 Z','AY1 Z','AY2 Z',],
+	'EDE' => 'IY1 D',
 	'EME' => 'IY1 M',
 	'ENE' => 'IY1 N',
 	'ERE' => ['IH1 R', 'IY1 R'], # ADHERE, 
+	'ETE' => 'IY1 T', #DEPLETE
+	'EZE' => 'IY1 Z', #TRAPEZE	
 	'OBE' => 'OW1 B',
 	'ODE' => 'OW1 D',
+	'OKE' => 'OW1 K',
 	'OLE' => 'OW1 L',
 	'OME' => 'OW1 M',
 	'ONE' => 'OW1 N',
@@ -139,13 +168,15 @@ push @gpcTables, {
 	'ORE' => [ 'OW1 R', 'AO1 R' ], # ?; BEFORE
 	'OSE' => 'OW1 S', # CLOSE as in 'That was a close call!'
 	'OTE' => 'OW1 T',
+	'OVE' => 'OW1 V',
 	'OZE' => 'OW1 Z',
 	'UBE' => 'UW1 B',
 	'UDE' => 'UW1 D',
 	'UKE' => 'Y UW1 K',
 	'ULE' => 'Y UW1 L',
-	'UME' => 'Y UW1 M',
+	'UME' => ['Y UW1 M','UW1 M'],
 	'UNE' => 'UW1 N',
+	'UPE' => 'UW1 P',
 	'URE' => ['Y UW1 R', 'Y UH1 R' ],
 	'UTE' => [ 'Y UW1 T', 'UW1 T' ],  #CUTE, LUTE
 	};
@@ -156,18 +187,20 @@ push @gpcTables, {
 	'ULL' => 'UH1 L', #must add to level 4 on website  ADD?
 	'OLL' => 'OW1 L', #must add to level 4 on website  ADD?
 	'ING' => 'IH1 NG G', #FINGER
-	'ER' => [ 'ER1', 'ER0' ],  # all R-controlled vowels?  ADD?
-	'ERR' => [ 'ER1', 'ER0' ],
-	'AR' => 'AA1 R',
-	'ARR' => 'AA1 R',
-	'OR' => 'AO1 R',
-	'ORR' => 'AO1 R',
-	'IR' => 'ER1',
-	'IRR' => 'ER1',
-	'UR' => 'ER1',
-	'URR' => 'ER1',
+	'ER' => [ 'ER1', 'ER0', 'ER2' ],  # all R-controlled vowels?  ADD?
+	'ERR' => [ 'ER1', 'ER0', 'ER2' ],
+	'AR' => ['AA0 R','AA1 R','AA2 R'],
+	'ARR' => ['AA0 R','AA1 R','AA2 R'],
+	'OR' => ['AO0 R','AO1 R','AO2 R'],
+	'ORR' => ['AO0 R','AO1 R','AO2 R'],
+	'IR' => ['ER0','ER1','ER2',],
+	'IRR' => ['ER0','ER1','ER2',],
+	'UR' => ['ER0','ER1','ER2',],
+	'URR' => ['ER0','ER1','ER2',],
 	'WAR' => 'W AO1 R',
+	'WARR' => 'W AO1 R',
 	'WOR' => 'W ER1',
+	'WORR' => 'W ER1',
 	'WA' => ['W AA1', 'W AO1'],
 	
 	};
@@ -175,56 +208,56 @@ push @gpcTables, {
 #Level 5
 push @gpcTables, {
 	
-	'EE' => 'IY1',   # SEEN
-	'EA' => ['IY1', 'IH1'], # ?; NEAR
-	'EY' => 'IY1',
-	'AI' => 'EY1',
-	'AY' => 'EY1',
-	'OA' => 'OW1',
-	'OW' => ['OW1', 'OW0'],
-	'IGH' => 'AY1',
-	'IE' => 'AY1',
-	'EW' => 'UW1',
-	'UE' => 'UW1',
+	'EE' => ['IY0','IY1','IY2'],   # SEEN
+	'EA' => ['IY0', 'IY1','IY2','IH1'], # ?; NEAR
+	'EY' => ['IY0','IY1','IY2'],    # KEY   ADD?
+	'AI' => ['EY0','EY1','EY2'],
+	'AY' => ['EY0','EY1','EY2'],
+	'OA' => ['OW0','OW1','OW2'],
+	'OW' => ['OW1', 'OW0','OW2'],
+	'IGH' => ['AY0','AY1','AY2'],
+	'IE' => ['AY0','AY1','AY2'], #PIE
+	'EW' => ['UW0','UW1','UW2'],
+	'UE' => ['UW0','UW1','UW2'],
 	};
 
 #Level 6
 push @gpcTables, {
-	'Y' => [ 'AY1', 'IY0', 'IH1'  ],
-	'OU' => 'AW1',
-	'OW' => 'AW1',
-	'OO' => [ 'UW1', 'UH1' ], # TOO; BOOK
-	'OI' => 'OY1',
-	'OY' => 'OY1',
-	'AY' => 'EY1',    # DAY   ADD?
-	'EY' => 'IY1',    # KEY   ADD?
-	'UY' => 'AY1',    # BUY   ADD?
-	'AU' => 'AO1',
-	'AW' => 'AO1',
+	'Y' => [ 'AY0','AY1','AY2', 'IY0','IY1','IY2', 'IH0', 'IH1', 'IH2'  ], # FLY; HAPPY; SYLLABLE
+	'OU' => ['AW0','AW1','AW2'],
+	'OW' => ['AW0','AW1','AW2'],
+	'OO' => [ 'UW0','UW1','UW2', 'UH0','UH1','UH2' ], # TOO; BOOK
+	'OI' => ['OY0','OY1','OY2'],
+	'OY' => ['OY0','OY1','OY2'],
+	'AY' => ['EY0','EY1','EY2'],    # DAY   ADD?
+	'UY' => ['AY0','AY1','AY2'],    # BUY   ADD?
+	'AU' => ['AO0','AO1','AO2'],
+	'AW' => ['AO0','AO1','AO2'],
 	'LE' => 'AH0 L',
-	'A' => 'EY1', #TABLE  ADD? --- open syllable
-	'I' => 'AY1', #TINY  ADD?  --- open syllable
-	'E' => [ 'IY0', 'IY1' ], # CREATE, DETAIL, BE  ADD? ---- open syllable
-	'O' => 'OW1', # SO (open syllable)    ADD?
+	'A' => ['EY0','EY1','EY2'], #TABLE  ADD? --- open syllable
+	'I' => ['AY0','AY1','AY2'], #TINY  ADD?  --- open syllable
+	'E' => [ 'IY0', 'IY1', 'IY2' ], # CREATE, DETAIL, BE  ADD? ---- open syllable
+	'O' => ['OW0','OW1','OW2'], # SO (open syllable)    ADD?
+	'U' => ['Y UW1'],
 	};
 
 #Level 7
 # soft s, g; air, are, ear, oar, tch, dge
 push @gpcTables, {
 	'C' => 'S',
-	'ACE' => 'EY1 S',
-	'ICE' => 'AY1 S',
-	'UCE' => 'UW1 S',
+	'ACE' => ['EY0 S','EY1 S','EY2 S'],
+	'ICE' => ['AY0 S','AY1 S','AY2 S'],
+	'UCE' => ['UW0 S','UW1 S','UW2 S'],
 	'G' => 'JH', # RAGE
-	'AGE' => 'EY1 JH',
-	'UGE' => 'Y UW1 JH',
-	'IGE' => 'AY1 JH',
-	'AIR' => ['AH1 R', 'EH1 R'],
+	'AGE' => ['EY0 JH','EY1 JH','EY2 JH'],
+	'UGE' => ['Y UW0 JH','Y UW1 JH','Y UW2 JH'],
+	'IGE' => ['AY0 JH','AY1 JH','AY2 JH'],
+	'AIR' => ['AH0 R', 'AH1 R','AH2 R', 'EH0 R','EH1 R','EH2 R'],
 	'ARE' => 'AH1 R',
-	'ARE' => 'EH1 R', # BARE  ADD?
-	'EAR' => 'EH1 R', # BEAR  
-	'OAR' => 'AO1 R',
-	'EA' => 'EH1',
+	'ARE' => ['EH0 R','EH1 R','EH2 R'], # BARE  ADD?
+	'EAR' => ['EH0 R','EH1 R','EH2 R', 'ER0','ER1','ER2'], # BEAR; LEARN  
+	'OAR' => ['AO0 R','AO1 R','AO2 R'],
+	'EA' => ['EH0','EH1','EH2'],
 	'TCH' => 'CH',
 	'DGE' => 'JH',
 	};
@@ -235,48 +268,58 @@ push @gpcTables, {
 	'AUGH' => 'AE1 F', # LAUGH
 	'OUGH' => [ 'AH1 F', 'OW1', 'UW1', 'AO1'], # TOUGH, ROUGH; THOUGH; THROUGH; BROUGHT
 	'FUL' => 'F AH0 L', # PEACEFUL
-	'ED' => [ 'T', 'D', 'AH0 D' ], # ASKED; FIRED; STARTED
+	'ED' => [ 'T', 'D', 'AH0 D', 'IH0 D' ], # ASKED; FIRED; STARTED; DECIDED
 	'ENT' => 'AH0 N T', # DIFFERENT
 	'IGN' => 'AY1 N', # SIGN
+	'TION' => ['CH AH0 N','SH AH0 N'], #QUESTION; STATION
+	'SION' => ['ZH AH0 N'], #VISION, INVASION
 	
 };
 
 #Level COSMIC (9)    ------------- WHERE DO THESE GO????
 push @gpcTables, {
-	'OSE' => 'OW1 Z', # CLOSE as in 'Close the door, please.'
-	'ISE' => 'AY1 Z',
-	'USE' => [ 'Y UW1 Z', 'Y UW1 S' ], 
-	'KN' => 'N',
-	'WR' => 'R',
-	'S' => 'Z',
-	'EIR' => 'EH1 R', # THEIR
-	'OME' => 'AH1 M', # COME, SOME
+	'A' => ['AA1', 'AO1', 'EH1','AH0','AH1','AH2'], # FATHER; WATER; MANY; ADHERE
+	'AI' => ['AH0','AH1','AH2'], #CERTAIN schwa
 	'CE' => 'S', # PEACE
-	'SE' => ['Z', 'S'], # PLEASE; HOUSE
-	'EE' => 'IH1', # BEEN (rhymes with SIN )
-	'EA' => 'EY1', # GREAT
-	'OO' => 'UW1', # TOO
-	'OVE' => 'UW1 V', # MOVE
-	'IND' => 'AY1 N D', # KIND, MIND, WIND ("wind the clock", not "who has seen the wind?")
-	'OE' => [ 'OW1', 'UW1' ], # TOE, FOE; SHOE
-	'ERE' => 'EH1 R', #WHERE, THERE
-	'FRO' => 'F R AH1', # for FROM
 	'CH' => 'K', # SCHOOL, CHASM, CHRISTMAS
-	'SM' => 'Z AH0 M',
-	'E' => 'IH0', # DESIGN ---- open syllable
-	'SC' => 'S', #SCENE
-	'OUR' => 'AW1 ER0', #OUR, SOUR
-	'OOR' => 'AO1 R', #FLOOR, DOOR
-	'EW' => 'Y UW1', #PEW, FEW
-	'OU' => 'UW1', # YOU
-	'EY' => 'EY1', # THEY
-	'OUR' => 'AO1 R', #YOUR, FOUR
-	'H' => '', # HOUR, HERB   -------- silent initial H
-	'GU' => 'G', # GUIDE
-	'GE' => 'JH', # STOOGE, --- soft g is level 7
-	'A' => ['AA1', 'AO1'], # FATHER; WATER
-	'O' => 'AH1', # MOTHER,
+	'CQU' => 'K W', #ACQUIRE
+	'E' => [ 'AH0','AH1','AH2', 'IH0' ] , #TRAVEL schwa; DESIGN
+	'EA' => 'EY1', # GREAT
+	'EE' => 'IH1', # BEEN (rhymes with SIN )
+	'EIR' => 'EH1 R', # THEIR
 	'EN' => 'AH0 N', # CHILDREN, OFTEN
+	'EO' => 'IY1', # PEOPLE
+	'ERE' => 'EH1 R', #WHERE, THERE
+	'EW' => 'Y UW1', #PEW, FEW
+	'EY' => 'EY1', # THEY
+	'FRO' => 'F R AH1', # for FROM
+	'GE' => 'JH', # STOOGE, --- soft g is level 7
+	'GH' => 'G', # GHOST
+	'GU' => 'G', # GUIDE'OSE' => 'OW1 Z', # CLOSE as in 'Close the door, please.'
+	# 'H' => '', # HOUR, HERB   -------- silent initial H
+	'I' => ['AH0','AH1','AH2'],
+	'IE' => ['IY0','IY1','IY2'], #ACTIVITIES, BUNNIES
+	'IND' => 'AY1 N D', # KIND, MIND, WIND ("wind the clock", not "who has seen the wind?")
+	'ISE' => 'AY1 Z',
+	'IVE' => 'IH1 V', # GIVE
+	'KN' => 'N',
+	'O' => [ 'AH0','AH1','AH2' ], #MOTHER, #PERSON schwa
+	'OE' => [ 'OW1', 'UW1' ], # TOE, FOE; SHOE
+	'OME' => 'AH1 M', # COME, SOME
+	'OO' => ['UW1','UW1','UW1','AH0','AH1','AH2'], # TOO; BLOOD
+	'OOR' => 'AO1 R', #FLOOR, DOOR
+	'OU' => 'UW1', # YOU
+	'OUR' => ['AW1 ER0', 'AO1 R'], #OUR, SOUR; YOUR, FOUR
+	'OUS' => ['AH0 S','AH1 S','AH2 S'], #ACRIMONIOUS
+	'OVE' => ['UW1 V','AH1 V'], # MOVE; LOVE
+	'SC' => 'S', #SCENE
+	'SE' => ['Z', 'S'], # PLEASE; HOUSE
+	'SM' => 'Z AH0 M',
+	'ST' => 'S', # LISTEN
+	'TU' => ['CH UW0'], #ACCENTUATE
+	'U' => 'UH1', # PUT
+	'USE' => [ 'Y UW1 Z', 'Y UW1 S' ], 
+	'WR' => 'R',
 };
 
 #Level SPECIAL (10)
@@ -332,13 +375,18 @@ my %letterTypeLookup = (
 	'Z' => 'C',
 	);
 
-my %levelByWordTemplate = (
+my %wordShapes = (
 	'VC' => 1,
-	'CV' => 2,
+	'VCC' => 1,
 	'CVC' => 1,
-	'CCVC' => 1,
+	'CCVC' => 1, # lookup tables will exclude digraphs 
+	'CVCC' => 1,
+	'CV' => 2, #open syllable
 	'CCVCC' => 2,
-	'CVCC' => 2,
+	'CCCVC' => 2,
+	'CCCVCC' => 2,
+	'CCCVCCC' => 2,
+	'CVVC' => 2, #for QU--
 	);
 
 
@@ -406,9 +454,12 @@ sub buildPGC {
 
 		# }
 
-		 push @pgcTables, { %pgc };
+		push @pgcTables, { %pgc };
 
-		# print Dumper \@pgcTables;
+		# if ($i == 9){
+		# 	print Dumper $pgcTables[$i];	
+		# }
+		
 
 		# print( ref $pgcTables[ 0 ] . "\n");
 
@@ -420,16 +471,49 @@ sub buildPGC {
 }
 buildPGC();
 
+my $wordCount = 0;
+
 while( <> ) {
 
 	$_ =~ s/\n//; #strips the newline off the line
 
 	if ( $_ =~ /\@\@\@\@(.*)/ ){
-		print("$1\n");
+		#print("$1\n");
 		next;
 	}
 
+
+
 	my $targetWord = uc $_; #converts to upper case, this is the TARGET WORD
+
+
+	if ( $wordsToIgnore{ $targetWord } and $wordsToIgnore{ $targetWord } == 1 ){
+		#print("ignoring $targetWord\n");
+		next;
+	}
+
+	$wordCount = $wordCount + 1;
+	if (( $wordCount % 1000 ) == 0){
+		print STDERR '.';
+	}
+
+
+	my @letters = split("", $targetWord );
+	my $wordShape = "";
+	for my $letter ( @letters ){
+		my $letterType = $letterTypeLookup{ $letter };
+		if ( $letterType ){
+			$wordShape = $wordShape . $letterType;
+		}
+	}
+	my $levelByWordShape;
+	if ( $wordShapes{ $wordShape } ){
+		$levelByWordShape = $wordShapes{ $wordShape };
+	} else {
+
+		$levelByWordShape = 3;
+	}
+
 
 	my ($pronunciation)= $pronouncingDico =~ /^($targetWord\ +[\ \w]*$)/mg;  #looks up word in pronouncing dictionary
 
@@ -453,24 +537,83 @@ while( <> ) {
 		my $level = lookupSpelling( '', $targetWord, @pieces );
 
 		if ( $level > 0 ){
-			print("$targetWord,$level\n");
-		} else {
-			print("------------- $targetWord,  $pronunciation\n");
+			# found a level
+			if ($levelByWordShape > $level){
+				$level = $levelByWordShape;
+			}
+
 		}
 
 
+		if ( $maxLevel > 0){
 
+
+			my $prefix = "";
+			my $postfix = "";
+
+			my $levelName = "$level";
+
+			if ( $level > 0 ){
+				if ($level > $maxLevel){
+
+					if ($level == 10){
+						$prefix = ".......... ";
+						$levelName = "SPECIAL";
+					}
+					if ($level == 9){
+						$prefix = "~~~~~~~~~~~~~~~~~ ";
+						$levelName = " CLARIFY";
+						#$postfix = "  $pronunciation";
+					}
+					print("$prefix$targetWord,$levelName$postfix\n");
+
+				}
+				
+			} else {
+				my $p = join " ", @pieces;
+				print("------------------------------ $targetWord,  $p\n");
+			}
+
+
+
+		} else {
+
+			my $prefix = "";
+			my $postfix = "";
+
+			my $levelName = "$level";
+
+			if ( $level > 0 ){
+				if ($level == 10){
+					$prefix = ".......... ";
+					$levelName = "SPECIAL";
+				}
+				if ($level == 9){
+					$prefix = "~~~~~~~~~~~~~~~~~ ";
+					$levelName = "CLARIFY";
+					#$postfix = "  $pronunciation";
+				}
+				print("$prefix$targetWord,$levelName$postfix\n");
+			} else {
+				my $p = join " ", @pieces;
+				print("------------------------------ $targetWord,  $p\n");
+			}
+
+		}
+
+	} else {
+		print("****************************** NOT IN DICTIONARY: $targetWord\n");
 	}
 }
 
 
 sub lookupSpelling {
 
-	my $debug = 0;
+	my $debug = $debugFlag;
 
 	my ( $partialSpelling, $targetWord, @pieces ) = @_;   #  LEARNING PERL all the args to the subroutine are in internal var @_ and each sub has its own
 
-	my $result = -1 ; # if -1, then no spellings found, otherwise is the highest level from which spellings were used to build the $targetWord with this pronunciation
+	my $result = -1 ; # if -1, then no spellings found, otherwise is the lowest level from which spellings were used to build the $targetWord with this pronunciation
 
 	
 	my $MAX_NB_PHONEMES_PER_SPELLING = 4;
@@ -482,7 +625,12 @@ sub lookupSpelling {
 
 	for ( my $nPhonemes = 1; $nPhonemes <= $maxNbPhonemesToExamine; $nPhonemes++ ){
 
+		my $levelForThisPhonemeSetLength = -1;
+
 		my @piecesCopy = @pieces; # LEARNING PERL: in Perl, this copies the array (in other language it would be a pointer/reference)
+		
+		# Build the phoneme set of length #nPhonemes
+		# @piecesCopy will be left with remaining, unused phonemes
 		my $phonemeSet = '';
 		for (my $i=1; $i <= $nPhonemes; $i++){
 
@@ -493,61 +641,77 @@ sub lookupSpelling {
 			}
 		}
 
-		if ( $debug ) { print( "$phonemeSet\n"); }
+		if ( $debug ) { print( "|$phonemeSet|\n"); }
 
-		# now $phonemeSet has the first $nPhonemes joined with spaces in between and
-		# @piecesCopy has the remaining phonemes
 
 		my $startIndex = 0;
-		my $endIndex = 8;
-		my $level;
+		my $endIndex = 9;
 
 		for (my $pgcTableIndex = $startIndex; $pgcTableIndex <= $endIndex; $pgcTableIndex++){
 
-			$level = $pgcTableIndex + 1;
+			my $levelOfThisTable = $pgcTableIndex + 1;
 			my %table = %{ $pgcTables[ $pgcTableIndex ] };
 
 			my $pgcCandidates = $table{ $phonemeSet };
 			if ( $pgcCandidates ) {
 
-				if ( $debug ) { print( ($pgcTableIndex + 1) . "       " . ( join " ",@$pgcCandidates ) . "\n"); }
+				if ( $debug ) { print( ($levelOfThisTable) . "       " . ( join " ",@$pgcCandidates ) . "\n"); }
 
+				#Loop over these candidate spellings for the current phoneme set
+				my $skipRemainingCandidates = 0;
 				for my $candidate ( @$pgcCandidates ){
-					if ( $debug ) { print("candidate  $candidate\n"); }
 
+					if ( $skipRemainingCandidates ){  next; }
+
+					if ( $debug ) { print("candidate  $candidate\n"); }
 
 					my $testSpelling = $partialSpelling . $candidate;
 
-					#if 
-					if ( $targetWord =~ /\A$testSpelling/ ){
+					if ( $debug ) { print("test spelling $testSpelling\n")};
+
+					if ( $targetWord =~ /\A$testSpelling/ ){ #target word begins with test spelling
+
 
 						if ( $debug ) { print("Test spelling OK: $testSpelling\n"); }
 
 						if ( ( $testSpelling eq $targetWord ) and ( scalar @piecesCopy == 0 ) ){
 
-							if ( $level > $result ){
+							if ( $debug ) { print( "------ STOP CONDITIONS SATISFIED\n") }
 
-								$result = $level;
-								if ( $debug ) { print( "------ STOP CONDITIONS SATISFIED\n") }
-							}
+							$levelForThisPhonemeSetLength = $levelOfThisTable; 
+							$pgcTableIndex = $endIndex + 1; #don't bother looking at higher level tables for this phonemeSet length
+							$skipRemainingCandidates = 1;
 
 						} else {
 
 							my $sublevel = lookupSpelling( $testSpelling, $targetWord, @piecesCopy );
+							
 							if ($sublevel > 0){
 
-								# a spelling was found
-								if ($sublevel > $level){
+								# a spelling that completed the word and used the remaining sounds was found
 
-									if ($sublevel > $result){
-										$result = $sublevel;
+								$pgcTableIndex = $endIndex + 1; #don't bother looking at higher level tables for this phonemeSet length
+
+								if ($sublevel > $levelOfThisTable){
+
+									if ($levelForThisPhonemeSetLength == -1){
+										$levelForThisPhonemeSetLength = $sublevel;
+
+									} else {
+										if ($sublevel < $levelForThisPhonemeSetLength){
+											$levelForThisPhonemeSetLength = $sublevel;
+										}
 									}
 
 								} else {
 
-
-									if ($level > $result){
-										$result = $level;
+									if ($levelForThisPhonemeSetLength == -1){
+										$levelForThisPhonemeSetLength = $levelOfThisTable;
+									} else {
+										if ($levelOfThisTable < $levelForThisPhonemeSetLength){
+											#print(" SET result to $level (sublevel <= level)\n");
+											$levelForThisPhonemeSetLength = $levelOfThisTable;
+										}
 									}
 
 								}
@@ -559,6 +723,21 @@ sub lookupSpelling {
 				}
 			}
 		}
+
+
+		if ($levelForThisPhonemeSetLength > 0){
+
+			# A solution was for this phoneme set length
+
+			if ( $result < 0 ){
+				$result = $levelForThisPhonemeSetLength;
+			} else {
+				if ( $levelForThisPhonemeSetLength < $result ){
+					$result = $levelForThisPhonemeSetLength;
+				}
+			}
+		}
+
 	}
 
 
