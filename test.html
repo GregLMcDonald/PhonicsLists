@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+<p>
+
+Highest Level Allowed: <form action="">
+  <input type="radio" name="maxLevel" value="1"> 1    
+  <input type="radio" name="maxLevel" value="2" checked> 2    
+  <input type="radio" name="maxLevel" value="3"> 3    
+  <input type="radio" name="maxLevel" value="4"> 4    
+  <input type="radio" name="maxLevel" value="5"> 5    
+  <input type="radio" name="maxLevel" value="6"> 6    
+  <input type="radio" name="maxLevel" value="7"> 7    
+  <input type="radio" name="maxLevel" value="8"> M   
+</form>
+
+<textarea id="textarea" style="color: black;" name="message" rows="12" form="textform" placeholder="Enter text to analyze here. Press the button to run the level analysis.">
+</textarea><br>
+<form id="textform" onSubmit="myFunction(); return false;" >
+	<input id="textareaButton" type="submit" value="Let’s do this!">
+</form>
+</p>
+
+<p id="demo"></p>
+
+<script src="decodability-data.js"></script>
+<script src="decodability-tool.js"></script>
+</body>
+</html>

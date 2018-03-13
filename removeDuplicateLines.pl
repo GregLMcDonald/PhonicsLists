@@ -13,6 +13,7 @@ while (<>){
 
 	my $line = $lines{ $_ };
 	if ( $line ){
+		print STDERR "$_\n";
 	} else {
 		$lines{ $_ } = 1;
 	}

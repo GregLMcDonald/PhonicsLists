@@ -93,7 +93,7 @@ push @gpcTables, {
 	'MM' => 'M',
 	'N' => 'N',
 	'NN' => 'N',
-	'O' => [ 'AA1', 'AO1' ], #ON
+	'O' => [ 'AA1','AA0','AA2', 'AO1','AO0','AO2' ], #ON; ODD
 	'P' => 'P',
 	'PP' => 'P',
 	'R' => 'R',
@@ -148,45 +148,45 @@ push @gpcTables, {
 	'IME' => ['AY0 M','AY1 M','AY2 M',],
 	'INE' => ['AY0 N','AY1 N','AY2 N',],
 	'IPE' => ['AY0 P','AY1 P','AY2 P',],
-	'IRE' => 'AY1 ER0',
+	'IRE' => ['AY0 ER0','AY1 ER0','AY2 ER0'],
 	'ITE' => ['AY0 T','AY1 T','AY2 T',],
 	'IVE' => ['AY0 V','AY1 V','AY2 V',],
 	'IZE' => ['AY0 Z','AY1 Z','AY2 Z',],
-	'EDE' => 'IY1 D',
-	'EME' => 'IY1 M',
-	'ENE' => 'IY1 N',
+	'EDE' => ['IY0 D','IY1 D','IY2 D'],
+	'EME' => ['IY0 M','IY1 M','IY2 M'],
+	'ENE' => ['IY0 N','IY1 N','IY2 N'],
 	'ERE' => ['IH1 R', 'IY1 R'], # ADHERE, 
 	'ETE' => 'IY1 T', #DEPLETE
 	'EZE' => 'IY1 Z', #TRAPEZE	
-	'OBE' => 'OW1 B',
-	'ODE' => 'OW1 D',
-	'OKE' => 'OW1 K',
-	'OLE' => 'OW1 L',
-	'OME' => 'OW1 M',
-	'ONE' => 'OW1 N',
-	'OPE' => 'OW1 P',
+	'OBE' => ['OW0 B','OW1 B','OW2 B'],
+	'ODE' => ['OW0 D','OW1 D','OW2 D'],
+	'OKE' => ['OW0 K','OW1 K','OW2 K'],
+	'OLE' => ['OW0 L','OW1 L','OW2 L'],
+	'OME' => ['OW0 M','OW1 M','OW2 M'],
+	'ONE' => ['OW0 N','OW1 N','OW2 N'],
+	'OPE' => ['OW0 P','OW1 P','OW2 P'],
 	'ORE' => [ 'OW1 R', 'AO1 R' ], # ?; BEFORE
 	'OSE' => 'OW1 S', # CLOSE as in 'That was a close call!'
-	'OTE' => 'OW1 T',
-	'OVE' => 'OW1 V',
-	'OZE' => 'OW1 Z',
-	'UBE' => 'UW1 B',
-	'UDE' => 'UW1 D',
-	'UKE' => 'Y UW1 K',
-	'ULE' => 'Y UW1 L',
-	'UME' => ['Y UW1 M','UW1 M'],
-	'UNE' => 'UW1 N',
-	'UPE' => 'UW1 P',
-	'URE' => ['Y UW1 R', 'Y UH1 R' ],
-	'UTE' => [ 'Y UW1 T', 'UW1 T' ],  #CUTE, LUTE
+	'OTE' => ['OW0 T','OW1 T','OW2 T'],
+	'OVE' => ['OW0 V','OW1 V','OW2 V'],
+	'OZE' => ['OW0 Z','OW1 Z','OW2 Z'],
+	'UBE' => ['UW0 B','UW1 B','UW2 B'],
+	'UDE' => ['UW0 D','UW1 D','UW2 D'],
+	'UKE' => ['Y UW0 K','Y UW1 K','Y UW2 K','UW0 K','UW1 K','UW2 K'],
+	'ULE' => ['Y UW0 L','Y UW1 L','Y UW2 L','UW0 L','UW1 L','UW2 L'],
+	'UME' => ['Y UW1 M','UW1 M','Y UW0 M','UW0 M','Y UW2 M','UW2 M'],
+	'UNE' => ['UW0 N','UW1 N','UW2 N'],
+	'UPE' => ['UW0 P','UW1 P','UW2 P'],
+	'URE' => ['Y UW1 R','Y UW0 R','Y UW2 R', 'Y UH1 R','Y UH0 R','Y UH2 R' ],
+	'UTE' => [ 'Y UW1 T', 'UW1 T','Y UW2 T', 'UW2 T','Y UW0 T', 'UW0 T' ],  #CUTE, LUTE
 	};
 
 #Level 4
 push @gpcTables, {
-	'ALL' => 'AO1 L',
-	'ULL' => 'UH1 L', #must add to level 4 on website  ADD?
-	'OLL' => 'OW1 L', #must add to level 4 on website  ADD?
-	'ING' => 'IH1 NG G', #FINGER
+	'ALL' => ['AO1 L','AO0 L','AO2 L'],
+	'ULL' => ['UH1 L','UH0 L','UH2 L'], #must add to level 4 on website  ADD?
+	'OLL' => ['OW1 L','OW0 L','OW2 L'], #must add to level 4 on website  ADD?
+	'ING' => ['IH1 NG G','IH0 NG G','IH2 NG G'], #FINGER
 	'ER' => [ 'ER1', 'ER0', 'ER2' ],  # all R-controlled vowels?  ADD?
 	'ERR' => [ 'ER1', 'ER0', 'ER2' ],
 	'AR' => ['AA0 R','AA1 R','AA2 R'],
@@ -197,11 +197,11 @@ push @gpcTables, {
 	'IRR' => ['ER0','ER1','ER2',],
 	'UR' => ['ER0','ER1','ER2',],
 	'URR' => ['ER0','ER1','ER2',],
-	'WAR' => 'W AO1 R',
-	'WARR' => 'W AO1 R',
-	'WOR' => 'W ER1',
-	'WORR' => 'W ER1',
-	'WA' => ['W AA1', 'W AO1'],
+	'WAR' => ['W AO1 R','W AO0 R','W AO2 R'],
+	'WARR' => ['W AO1 R','W AO0 R','W AO2 R'],
+	'WOR' => ['W ER1','W ER0','W ER2'],
+	'WORR' => ['W ER1','W ER0','W ER2'],
+	'WA' => ['W AA1', 'W AO1','W AA0', 'W AO0','W AA2', 'W AO2'],
 	
 	};
 
@@ -238,7 +238,7 @@ push @gpcTables, {
 	'I' => ['AY0','AY1','AY2'], #TINY  ADD?  --- open syllable
 	'E' => [ 'IY0', 'IY1', 'IY2' ], # CREATE, DETAIL, BE  ADD? ---- open syllable
 	'O' => ['OW0','OW1','OW2'], # SO (open syllable)    ADD?
-	'U' => ['Y UW1'],
+	'U' => ['Y UW1','Y UW0','Y UW2'], #USER
 	};
 
 #Level 7
@@ -271,55 +271,58 @@ push @gpcTables, {
 	'ED' => [ 'T', 'D', 'AH0 D', 'IH0 D' ], # ASKED; FIRED; STARTED; DECIDED
 	'ENT' => 'AH0 N T', # DIFFERENT
 	'IGN' => 'AY1 N', # SIGN
-	'TION' => ['CH AH0 N','SH AH0 N'], #QUESTION; STATION
+	'TION' => ['CH AH0 N','SH AH0 N','CH AH1 N','SH AH1 N','CH AH2 N','SH AH2 N'], #QUESTION; STATION
 	'SION' => ['ZH AH0 N'], #VISION, INVASION
 	
 };
 
 #Level COSMIC (9)    ------------- WHERE DO THESE GO????
 push @gpcTables, {
-	'A' => ['AA1', 'AO1', 'EH1','AH0','AH1','AH2'], # FATHER; WATER; MANY; ADHERE
+	'A' => ['AA0','AA1','AA2', 'AO0','AO1','AO2', 'EH0','EH1','EH1','AH0','AH1','AH2'], # FATHER; WATER; MANY; ADHERE
 	'AI' => ['AH0','AH1','AH2'], #CERTAIN schwa
 	'CE' => 'S', # PEACE
 	'CH' => 'K', # SCHOOL, CHASM, CHRISTMAS
+	'CI' => 'SH', # SPECIAL
 	'CQU' => 'K W', #ACQUIRE
-	'E' => [ 'AH0','AH1','AH2', 'IH0' ] , #TRAVEL schwa; DESIGN
-	'EA' => 'EY1', # GREAT
-	'EE' => 'IH1', # BEEN (rhymes with SIN )
-	'EIR' => 'EH1 R', # THEIR
-	'EN' => 'AH0 N', # CHILDREN, OFTEN
-	'EO' => 'IY1', # PEOPLE
-	'ERE' => 'EH1 R', #WHERE, THERE
-	'EW' => 'Y UW1', #PEW, FEW
-	'EY' => 'EY1', # THEY
-	'FRO' => 'F R AH1', # for FROM
+	'D' => 'JH', #EDUCATION
+	'E' => [ 'AH0','AH1','AH2', 'IH0','IH1','IH2' ] , #TRAVEL schwa; DESIGN
+	'EA' => ['EY1','EY0','EY2'], # GREAT
+	'EE' => ['IH1','IH0','IH2'], # BEEN (rhymes with SIN )
+	'EIR' => ['EH1 R','EH0 R','EH2 R'], # THEIR
+	'EN' => ['AH0 N','AH1 N','AH2 N'], # CHILDREN, OFTEN
+	'EO' => ['IY1','IY0','IY2'], # PEOPLE
+	'ERE' => ['EH1 R','EH0 R','EH2 R'], #WHERE, THERE
+	'EW' => ['Y UW1','Y UW0','Y UW2'], #PEW, FEW
+	'EY' => ['EY1','EY0','EY2'], # THEY
 	'GE' => 'JH', # STOOGE, --- soft g is level 7
 	'GH' => 'G', # GHOST
 	'GU' => 'G', # GUIDE'OSE' => 'OW1 Z', # CLOSE as in 'Close the door, please.'
 	# 'H' => '', # HOUR, HERB   -------- silent initial H
 	'I' => ['AH0','AH1','AH2'],
 	'IE' => ['IY0','IY1','IY2'], #ACTIVITIES, BUNNIES
-	'IND' => 'AY1 N D', # KIND, MIND, WIND ("wind the clock", not "who has seen the wind?")
-	'ISE' => 'AY1 Z',
-	'IVE' => 'IH1 V', # GIVE
+	'IEW' => ['Y UW1','Y UW0','Y UW2'],
 	'KN' => 'N',
-	'O' => [ 'AH0','AH1','AH2' ], #MOTHER, #PERSON schwa
+	'ME' => 'M',
+	'O' => [ 'AH0','AH1','AH2','IH0','IH1','IH2','UH0','UH1','UH2' ], #MOTHER, #PERSON schwa; WOMEN; WOMAN
 	'OE' => [ 'OW1', 'UW1' ], # TOE, FOE; SHOE
-	'OME' => 'AH1 M', # COME, SOME
-	'OO' => ['UW1','UW1','UW1','AH0','AH1','AH2'], # TOO; BLOOD
-	'OOR' => 'AO1 R', #FLOOR, DOOR
-	'OU' => 'UW1', # YOU
-	'OUR' => ['AW1 ER0', 'AO1 R'], #OUR, SOUR; YOUR, FOUR
+	'OO' => ['UW1','UW1','UW1','AH0','AH1','AH2', 'AO1', 'AO0', 'AO2'], # TOO; BLOOD; DOOR, FLOOR
+	'OR' => ['ER0','ER1','ER2'],
+	'OU' => ['UW1','UW0','UW2','AH0','AH1','AH2'], # YOU; TOUCH
+	'OUR' => ['AW1 ER0','AW0 ER0','AW2 ER0', 'AO1 R','AO0 R','AO2 R'], #OUR, SOUR; YOUR, FOUR
 	'OUS' => ['AH0 S','AH1 S','AH2 S'], #ACRIMONIOUS
-	'OVE' => ['UW1 V','AH1 V'], # MOVE; LOVE
+	'OVE' => ['UW1 V','UW0 V','UW2 V','AH1 V','AH0 V','AH2 V'], # MOVE; LOVE
 	'SC' => 'S', #SCENE
 	'SE' => ['Z', 'S'], # PLEASE; HOUSE
 	'SM' => 'Z AH0 M',
 	'ST' => 'S', # LISTEN
-	'TU' => ['CH UW0'], #ACCENTUATE
-	'U' => 'UH1', # PUT
-	'USE' => [ 'Y UW1 Z', 'Y UW1 S' ], 
+	'T' => 'CH', #PICTURE
+	'TU' => ['CH UW0','CH UW1','CH UW2'], #ACCENTUATE
+	'U' => ['UH1','UH0','UH2','Y UH1','Y UH0','Y UH2', 'AH0','AH1','AH2','Y AH0','Y AH1','Y AH2','Y UW1', 'Y UW2','Y UW0', 'UW1', 'UW2','UW0' ], # PUT; EDUCATION; FUSE, ABUSE
+	'URE' => ['ER0','ER1','ER2'], #PICTURE
+	'VE' => 'V', # GIVE
 	'WR' => 'R',
+	
+	
 };
 
 #Level SPECIAL (10)
@@ -515,94 +518,101 @@ while( <> ) {
 	}
 
 
-	my ($pronunciation)= $pronouncingDico =~ /^($targetWord\ +[\ \w]*$)/mg;  #looks up word in pronouncing dictionary
+	#my ($pronunciation)= $pronouncingDico =~ /^($targetWord\ +[\ \w]*$)/mg;  #looks up word in pronouncing dictionary
 
-	if ($pronunciation){
+	my (@pronunciations) = $pronouncingDico =~ /^($targetWord\(*\d*\)* +[\ \w]*$)/mg;  #looks up word in pronouncing dictionary
+	if( scalar @pronunciations == 0 ){
+		print("****************************** NOT IN DICTIONARY: $targetWord\n");
+	}
+	
+	my $pronunciation;
+	while ( defined( $pronunciation = shift @pronunciations ) ) {
 
-		#In the CMU pronunciation dictionary, entries are formatted as word followed by a list of phonemes: WORD AA AA AA AA...
-		my @pieces;
-		@pieces = split /\ /, $pronunciation;
+		if ( $pronunciation ){ 
 
-		shift @pieces; #remove element from beginning, which is the target word (already have it in $upper)
-		shift @pieces; #remove spacer between target word and pronunciation
+	    
 
-		my $s = join " " , @pieces;
-		my $nPieces = scalar @pieces;
+			#In the CMU pronunciation dictionary, entries are formatted as word followed by a list of phonemes: WORD AA AA AA AA...
+			my @pieces;
+			@pieces = split /\ /, $pronunciation;
 
-		#Now we have:
-		#  1) the $targetWord 
-		#  2) the $pronunciation of that word in standard American English from the CMU pronunciation dictionary
-		#  3) @pieces, an array containing the individual phoneme codes from the pronunciation
+			shift @pieces; #remove element from beginning, which is the target word (already have it in $upper)
+			shift @pieces; #remove spacer between target word and pronunciation
 
-		my $level = lookupSpelling( '', $targetWord, @pieces );
+			my $s = join " " , @pieces;
+			my $nPieces = scalar @pieces;
 
-		if ( $level > 0 ){
-			# found a level
-			if ($levelByWordShape > $level){
-				$level = $levelByWordShape;
-			}
+			#Now we have:
+			#  1) the $targetWord 
+			#  2) the $pronunciation of that word in standard American English from the CMU pronunciation dictionary
+			#  3) @pieces, an array containing the individual phoneme codes from the pronunciation
 
-		}
-
-
-		if ( $maxLevel > 0){
-
-
-			my $prefix = "";
-			my $postfix = "";
-
-			my $levelName = "$level";
+			my $level = lookupSpelling( '', $targetWord, @pieces );
 
 			if ( $level > 0 ){
-				if ($level > $maxLevel){
+				# found a level
+				if ($levelByWordShape > $level){
+					$level = $levelByWordShape;
+				}
 
+			}
+
+
+			if ( $maxLevel > 0){
+
+
+				my $prefix = "";
+				my $postfix = "";
+
+				my $levelName = "$level";
+
+				if ( $level > 0 ){
+					if ($level > $maxLevel){
+
+						if ($level == 10){
+							$prefix = ".......... ";
+							$levelName = "SPECIAL";
+						}
+						if ($level == 9){
+							$prefix = "~~~~~~~~~~~~~~~~~ ";
+							$levelName = " CLARIFY";
+							#$postfix = "  $pronunciation";
+						}
+						print("$prefix$targetWord,$levelName$postfix\n");
+
+					}
+				
+				} else {
+					my $p = join " ", @pieces;
+					print("------------------------------ $targetWord,  $p\n");
+				}
+
+
+
+			} else {
+
+				my $prefix = "";
+				my $postfix = "";
+
+				my $levelName = "$level";
+
+				if ( $level > 0 ){
 					if ($level == 10){
 						$prefix = ".......... ";
 						$levelName = "SPECIAL";
 					}
 					if ($level == 9){
 						$prefix = "~~~~~~~~~~~~~~~~~ ";
-						$levelName = " CLARIFY";
+						$levelName = "CLARIFY";
 						#$postfix = "  $pronunciation";
 					}
 					print("$prefix$targetWord,$levelName$postfix\n");
-
+				} else {
+					my $p = join " ", @pieces;
+					print("------------------------------ $targetWord,  $p\n");
 				}
-				
-			} else {
-				my $p = join " ", @pieces;
-				print("------------------------------ $targetWord,  $p\n");
 			}
-
-
-
-		} else {
-
-			my $prefix = "";
-			my $postfix = "";
-
-			my $levelName = "$level";
-
-			if ( $level > 0 ){
-				if ($level == 10){
-					$prefix = ".......... ";
-					$levelName = "SPECIAL";
-				}
-				if ($level == 9){
-					$prefix = "~~~~~~~~~~~~~~~~~ ";
-					$levelName = "CLARIFY";
-					#$postfix = "  $pronunciation";
-				}
-				print("$prefix$targetWord,$levelName$postfix\n");
-			} else {
-				my $p = join " ", @pieces;
-				print("------------------------------ $targetWord,  $p\n");
-			}
-
-		}
-
-	} else {
-		print("****************************** NOT IN DICTIONARY: $targetWord\n");
+		}		
 	}
 }
 
