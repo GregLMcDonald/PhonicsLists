@@ -31,7 +31,9 @@ GetOptions ( 'verbose' => \$verbose,
 if ($help){
 	print "\nOptions for checkAgainstPronouncing are:\n\n";
 	print "--verbose\n";
-	print "--help        Prints this message\n";
+	print "--ignore=FILENAME  FILENAME designates file with list of words not to analyze"
+	print "--max=NUMBER       do not output results is level is less that NUMBER (???) "
+	print "--help             Prints this message\n";
 	print "\n";
 	exit;
 }
@@ -56,6 +58,10 @@ if ($ignore){
 
 }
 
+#   THE TEXT FILE "cmudico" SHOULD BE IN THE SAME DIRECTORY
+#   AS THIS SCRIPT.  IT CONTAINS THE CARNEGIE MELLON UNIVERSITY
+#   PRONOUNCING DICTIONARY (SEE BELOW).
+
 my $pronouncingDico;
 {
 	my $filename = "cmudico";
@@ -65,7 +71,30 @@ my $pronouncingDico;
 	close(FILE);
 }
 
-
+#
+#   NOTE TO ANY LITERACY ENTHUSIASTS, LINGUISTS, READING TUTORS, ETC.
+#   WHO MAY VENTURE INTO THESE PERL INFESTED WATERS:
+#
+#   I AM AWARE THAT THE TABLES CONTAINED IN @gpcTables ARE NOT HASHES
+#   (ASSOCIATIVE ARRAYS) OF GPC'S (GRAPHEME-PHONEME CORRESPONDENCES).
+#   SOME OF THE PAIRING ARE INDEED GPC'S BUT MANY ARE NOT. AN EARLIER
+#   VERSION OF THIS CODE WAS STRICTLY TABLES OF GPC'S, BUT IN ORDER
+#   TO ACTUALLY WORK AND DO WHAT I WANTED (DETERMINE THE TAP LEVEL OF
+#   THE TARGET WORD), THE CODE NEEDED TO EVOLVE IN A DIFFERENT DIRECTION.
+#   IN THE END, THE TABLES CONTAIN PAIRINGS OF SPELLINGS AND SETS OF ONE
+#   OR MORE PHONEMES.  I JUST NEVER GOT AROUND TO CHANGING THE VARIABLE
+#   NAMES, ETC..
+#
+#   I BEG YOUR INDULGENCE :-)
+#
+#   BTW, THE "PHONE CODES" ARE "BASED ON THE ARPABET SYMBOL SET DEVELOPED 
+#   FOR SPEECH RECOGNITION USES." http://en.wikipedia.org/wiki/Arpabet
+#   THESE ARE THE SAME CODES USED IN THE CARNEGIE MELLON UNIVERSITY
+#   PRONOUNCING DICTIONARY (http://www.speech.cs.cmu.edu/cgi-bin/cmudict)
+#   WHICH IS LOADED INTO THE STRING $pronouncingDico IN LINES 65-71 ABOVE.
+# 
+#
+#
 my @gpcTables;
 my @pgcTables;
 
