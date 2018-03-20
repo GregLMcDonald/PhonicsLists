@@ -1,0 +1,34 @@
+<html>
+<head></head>
+<body>
+ <p>
+
+<form action="">
+Target Maximum TAP Level: 
+  <input type="radio" name="maxLevel" value="1"> 1    
+  <input type="radio" name="maxLevel" value="2" checked> 2    
+  <input type="radio" name="maxLevel" value="3"> 3    
+  <input type="radio" name="maxLevel" value="4"> 4    
+  <input type="radio" name="maxLevel" value="5"> 5    
+  <input type="radio" name="maxLevel" value="6"> 6    
+  <input type="radio" name="maxLevel" value="7"> 7    
+  <input type="radio" name="maxLevel" value="8"> M
+  <input type="radio" name="maxLevel" value="9"> ??   
+</form>
+<form action="">
+Show level of each word? <input type="checkbox" name="showLevelValue">
+</form>
+
+<textarea id="textarea" style="color: black;" name="message" rows="5" form="textform" placeholder="Enter text to analyze here then tap/click the Analyze button below. Text does not have to fit in the box. If you change the Maximum level, hit Analyze again.">
+</textarea><br>
+
+<form id="textform" onSubmit="myFunction(); return false;" >
+	<input id="textareaButton" type="submit" value="Analyze">
+</form>
+</p>
+
+<hr>
+<p id="demo"><em>The result will appear here.</em></p>
+<hr>
+</body>
+</html>
