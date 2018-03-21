@@ -1,8 +1,11 @@
+// v 1.1
+// March 20, 2018
 
 function myFunction() {
 
   var text;
   var maxLevel;
+  var showLevelCheckbox;
 
   text = document.getElementById("textarea").value;
   if (text === "")
@@ -11,21 +14,36 @@ function myFunction() {
   }
 
   maxLevel = document.querySelector('input[name="maxLevel"]:checked').value;
+  showLevelCheckbox = document.querySelector('input[name="showLevelValue"]');
   
 
   var colorForEachLevel = [
-  "#DDDDDD",
-  "#666666",
-  "#555555",
   "#444444",
-  "#333333",
-  "#222222",
-  "#111111",
-  "#000000",
-  "#000000",
-  "#000000",
-  "#000000"
+  "#999999",
+  "#AAAAAA",
+  "#BBBBBB",
+  "#CCCCCC",
+  "#DDDDDD",
+  "#EEEEEE",
+  "#FFFFFF",
+  "#FFFFFF",
+  "#FFFFFF",
+  "#FFFFFF"
   ];
+
+ //var colorForEachLevel = [
+ // "#DDDDDD",
+ // "#666666",
+ // "#555555",
+ // "#444444",
+ // "#333333",
+ // "#222222",
+ // "#111111",
+ // "#000000",
+ // "#000000",
+ // "#000000",
+ // "#000000"
+ // ];
 
   var sizeForEachLevel = [
   1,
@@ -55,7 +73,9 @@ function myFunction() {
 
     if( nonLetter.test( token ) ){
 
-     styledText += token;
+     var color = colorForEachLevel[ 0 ];
+
+     styledText += '<span style="color: ' + color +';">' + token + '</span>';
 
     } else {
 
@@ -69,8 +89,6 @@ function myFunction() {
           levelDiff = 0;
         }
 
-        //styledToken = '<span style="level-' + levelDiff + '">' + token + '</span>';
-
         var color = colorForEachLevel[ levelDiff ];
         if (! color ){
           color = '#FFFFFF';
@@ -80,14 +98,32 @@ function myFunction() {
         if (! size ){
           size = 1;
         }
-        
 
-        styledToken = '<span style="color: ' + color + '; font-size: ' + size + 'em; ">' + token + '</span>';
+        var style = 'normal';
+        if ( level === 11 ){
+            // This is a special word like is, was, of, the
+            color = '#444444';
+            size = 1;
+            style = 'italic';
+            
+        }
+
+        if ( level == 9 ){
+             style = 'italic';
+        }
+
+        var levelLabel = '';
+        if ( showLevelCheckbox.checked ){
+          levelLabel = '(' + level + ')';
+        }
+
+        styledToken = '<span style="color: ' + color + '; font-size: ' + size + 'em; font-style: ' + style + ';">' + token + levelLabel + '</span>';
         
 
       } else {
-            
-        styledToken = '<span style="color: #000000; font-style: italic; ">' + token + '</span>';
+
+        // Not in word list    
+        styledToken = '<span style="color: #FFFF55; font-style: italic; ">' + token + '</span>';
 
       }
 
